@@ -5,7 +5,9 @@ import QrScanner from "./core/qr-scanner.min.js";
 
     function setResult(result) {
         alert(result.data);
-        scanner.stop();
+        if(result.data){
+            scanner.stop();
+        }
     }
 
     const scanner = new QrScanner(video, result => setResult(result), {
