@@ -12,11 +12,6 @@ app.set('view engine', 'ejs')
 app.all('/', (req, res)=>{
     res.render('index')
 })
-app.all('/test', (req, res)=>{
-    res.render('test')
-})
-
-
 
 HttpServer.listen(Port, ()=>{
     console.log('Server was started')
