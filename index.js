@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 const http = require('http')
+const Port = process.env.PORT || 3000
 const HttpServer = http.createServer(app)
 
 app.use(express.static('./public'))
@@ -17,6 +18,6 @@ app.all('/test', (req, res)=>{
 
 
 
-HttpServer.listen(3000, ()=>{
+HttpServer.listen(Port, ()=>{
     console.log('Server was started')
 })
