@@ -19,13 +19,16 @@
     const video = document.getElementById('qr-video');
     const videoContainer = document.getElementById('container');
 
-    function setResult(label, result) {
+    function setResult(result) {
         alert(result.data);
     }
 
     // ####### Web Cam Scanning #######
 
     const scanner = new QrScanner(video, result => setResult(result), {
+        onDecodeError: error => {
+            alert(error)
+        },
         highlightScanRegion: true,
         highlightCodeOutline: true,
     });
