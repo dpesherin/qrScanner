@@ -8,8 +8,10 @@ import QrScanner from "./core/qr-scanner.min.js";
         if(result.data){
             let data = JSON.parse(result.data)
             let text = `Договор: ${data.contract},\nТип документа: ${data.type},\nОтветственный: ${data.employer},\nКонтрагент: ${data.contragent}\nПодтверждаете документ?`
-            confirm(text)
-            scanner.stop()
+            let conf = confirm(text)
+            if(conf){
+                scanner.stop()
+            }
         }
     }
 
