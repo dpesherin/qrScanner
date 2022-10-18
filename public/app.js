@@ -4,9 +4,12 @@ import QrScanner from "./core/qr-scanner.min.js";
     const videoContainer = document.getElementById('container');
 
     function setResult(result) {
-        alert(result.data);
+        
         if(result.data){
-            scanner.stop();
+            let data = JSON.parse(result.data)
+            let text = `Договор: ${data.contract},\nТип документа: ${data.type},\nОтветственный: ${data.employer},\nКонтрагент: ${data.contragent}\nПодтверждаете документ?`
+            confirm(text)
+            scanner.stop()
         }
     }
 
