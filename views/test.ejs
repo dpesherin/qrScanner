@@ -26,9 +26,6 @@
     // ####### Web Cam Scanning #######
 
     const scanner = new QrScanner(video, result => setResult(result), {
-        onDecodeError: error => {
-            alert(error)
-        },
         highlightScanRegion: true,
         highlightCodeOutline: true,
     });

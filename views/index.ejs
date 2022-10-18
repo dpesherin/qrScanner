@@ -1,17 +1,66 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <title>QR Scanner Demo</title>
     <link rel="stylesheet" href="./css/style.css">
-    <title>QR Scanner</title>
 </head>
 <body>
-    <div class="container">
-        <video id="qr-video"></video>
-    </div>
+<h1>Scan from WebCam:</h1>
+<div id="container">
+    <video id="qr-video"></video>
+</div>
+
+<!--<script src="../qr-scanner.umd.min.js"></script>-->
+<!--<script src="../qr-scanner.legacy.min.js"></script>-->
+<script type="module">
+    import QrScanner from "./core/qr-scanner.min.js";
+
+    const video = document.getElementById('qr-video');
+    const videoContainer = document.getElementById('container');
+
+    function setResult(label, result) {
+        alert(result.data);
+    }
+
+    // ####### Web Cam Scanning #######
+
+    const scanner = new QrScanner(video, result => setResult(result), {
+        highlightScanRegion: true,
+        highlightCodeOutline: true,
+    });
+;
+
+    scanner.start()
+
+
+    // for debugging
+    window.scanner = scanner;
+
+    document.getElementById('scan-region-highlight-style-select').addEventListener('change', (e) => {
+        videoContainer.className = e.target.value;
+        scanner._updateOverlay(); // reposition the highlight because style 2 sets position: relative
+    });
+
+    document.getElementById('show-scan-region').addEventListener('change', (e) => {
+        const input = e.target;
+        const label = input.parentNode;
+        label.parentNode.insertBefore(scanner.$canvas, label.nextSibling);
+        scanner.$canvas.style.display = input.checked ? 'block' : 'none';
+    });
+
+    document.getElementById('inversion-mode-select').addEventListener('change', event => {
+        scanner.setInversionMode(event.target.value);
+    });
+
+    document.getElementById('start-button').addEventListener('click', () => {
+        scanner.start();
+    });
+
+    document.getElementById('stop-button').addEventListener('click', () => {
+        scanner.stop();
+    });
+
+</script>
 </body>
-    <script src="app.js" type="module"></script>
 </html>
