@@ -21,6 +21,9 @@ app.set('view engine', 'ejs')
 app.all('/', (req, res)=>{
     res.render('index')
 })
+app.get('/scan', (req, res)=>{
+    res.render('scan')
+})
 
 app.post('/generate', async(req, res)=>{
     const token = req.headers.authorization
