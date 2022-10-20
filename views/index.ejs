@@ -4,11 +4,18 @@
     <meta charset="UTF-8">
     <title>QR Scanner Demo</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="container">
+    <div id="start">
         <h1>Start Page</h1>
-        <a href="/scan">Начать сканирование</a>
-    </div>    
+        <button id="start-btn">Начать сканирование</button>
+    </div>   
+    <div id="container">
+        <video id="qr-video"></video>
+        <script type="module" src="./app.js"></script>
+    </div>
+    
 </body>
+    <script src="./index.js"></script>
 </html>

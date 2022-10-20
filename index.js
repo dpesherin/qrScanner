@@ -21,7 +21,7 @@ app.set('view engine', 'ejs')
 app.all('/', (req, res)=>{
     res.render('index')
 })
-app.get('/scan', (req, res)=>{
+app.all('/scan', (req, res)=>{
     res.render('scan')
 })
 
