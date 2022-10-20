@@ -1,5 +1,11 @@
 import QrScanner from "./core/qr-scanner.min.js";
+// try {
+//     BX24.init(()=>{
 
+//     })
+// } catch (error) {
+    
+// }
     const video = document.getElementById('qr-video');
     const videoContainer = document.getElementById('container');
 
