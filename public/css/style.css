@@ -6,7 +6,7 @@
 body{
     overflow: hidden;
 }
-.container{
+#container{
     height: 100vh;
     width: 100vw;
     display: none;
@@ -16,4 +16,10 @@ body{
     height: 100vh;
     width: 100%;
     background-color: rgb(0,0,0);
+}
+#start{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
