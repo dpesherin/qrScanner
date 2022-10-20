@@ -25,8 +25,8 @@ body{
 }
 .area{
     border: 2px solid greenyellow;
-    height: 20vh;
-    width: 20vh;
+    height: 25vh;
+    width: 25vh;
     position: absolute;
     top: 50%;
     left: 50%;
