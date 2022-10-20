@@ -32,3 +32,8 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+#start-btn{
+    width: 30%;
+    height: 10%;
+    font-size: 1.2rem;
+}
