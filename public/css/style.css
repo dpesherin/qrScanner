@@ -23,7 +23,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-.area{
+#area{
     border: 2px solid greenyellow;
     height: 25vh;
     width: 25vh;
