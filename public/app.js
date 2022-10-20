@@ -43,7 +43,3 @@ import QrScanner from "./core/qr-scanner.min.js";
         label.parentNode.insertBefore(scanner.$canvas, label.nextSibling);
         scanner.$canvas.style.display = input.checked ? 'block' : 'none';
     });
-
-    document.getElementById('inversion-mode-select').addEventListener('change', event => {
-        scanner.setInversionMode(event.target.value);
-    });
