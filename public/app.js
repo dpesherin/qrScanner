@@ -17,7 +17,7 @@ try {
                             alert("Error: " + res.error());
                         }else{
                             let dat = res.data()[0]
-                            let conf = confirm(dat)
+                            let conf = confirm("Вы отсканировали элемент с id:"+ dat.ID)
                             if(conf){
                                 scanner.stop()
                             }
