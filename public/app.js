@@ -19,7 +19,7 @@ try {
                         }else{
                             let dat = res.data()[0]
                             let p1 = JSON.stringify(dat.PROPERTY_408)
-                            let p1val = p1.split('"')[2]
+                            let p1val = p1.split('"')[3]
 
                             let conf = confirm("Вы отсканировали элемент с типом:"+ dat.PROPERTY_408)
                             document.writeln(p1val)
