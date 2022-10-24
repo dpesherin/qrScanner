@@ -29,7 +29,7 @@ import QrScanner from "./core/qr-scanner.min.js";
         highlightCodeOutline: true,
     });
 
-    //scanner.start()
+    scanner.start()
 
     document.getElementById('s').addEventListener('click', ()=>{
         scanner.start()
