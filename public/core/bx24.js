@@ -1,1 +1,1488 @@
-(function(_0x1e7780,_0x10b3ba){var _0x38a3b8=_0x36b5,_0x481374=_0x1e7780();while(!![]){try{var _0x3e744f=-parseInt(_0x38a3b8(0x1cb))/0x1+-parseInt(_0x38a3b8(0x1ba))/0x2+parseInt(_0x38a3b8(0x1c7))/0x3+-parseInt(_0x38a3b8(0x152))/0x4+-parseInt(_0x38a3b8(0x16b))/0x5+parseInt(_0x38a3b8(0x187))/0x6*(-parseInt(_0x38a3b8(0x1c1))/0x7)+parseInt(_0x38a3b8(0x1f0))/0x8;if(_0x3e744f===_0x10b3ba)break;else _0x481374['push'](_0x481374['shift']());}catch(_0x13478a){_0x481374['push'](_0x481374['shift']());}}}(_0x4555,0xc55f6));;function _0x4555(){var _0x1dd85c=['ready','reloadWindow','\x5c+\x5c+\x20*(?:[a-zA-Z_$][0-9a-zA-Z_$]*)','event.bind','BXFILENAME','files','appOption','round','scrollWidth','selectUsers','postMessage','error_description','[1]=','installFinish','AUTH_EXPIRES','open','random','expired_token','charset','2340556xwvtMi','onerror','function\x20*\x5c(\x20*\x5c)','name','debu','isAdmin','STYLE','193417qNKEGF','batch','readyState','search','BX24','DOMMouseScroll','1076313xwHkpH','callMethod','detachEvent','setAttribute','56296cIWxzM','setTitle','query','onreadystatechange','valueOf','runReady','currentAmount','counter','type','incrementStorage','DOMContentLoaded','decrementStorage','insertBefore','getElementsByTagName','auth_type','APP_OPTIONS','FileReader','onprogress','prepareData','callback','join','checkStorage','APP_SID','callBatch','getAuth','getLang','setInterval','.json','run','push','object','result','documentElement','msTransitionEnd','bind','HEAD','refreshAuth','37843000UwxRaq','setCallback','100%','split','PATH','total','INPUT','stringify','delegate','imPhoneTo','responseText','event','auth=','escape','openPath','fitWindow','isDomNode','cloneNode','length','install','proxy','canUse','result_error','setAppOption','hasOwnProperty','prototype','getInterface','0123456789abcdefghijklmnopqrstuvwxyz','ALLOWED_SPEED','REFRESH_ID','method','selectUser','unbind','MEMBER_ID','LINK','body','data','wait','USER_OPTIONS','load','getInitData','nodeType','XDomainRequest','onload','init','test','complete','getStatus','error','runCallback','call','storage','initObjectProxy','isString','start','log','while\x20(true)\x20{}','value','undefined','check','params','createElement','isReady','loaded','max','&start=','LANG','resizeWindow','param','PLACEMENT','blank','string','bx24_','5249256pdAbGO','multiple','INSTALL','selectCRM','event.unbind','gger','SCRIPT','getScrollSize','result_total','toJSON','callBind','loadScript','replace','imOpenHistory','send','target','http','PROTOCOL','removeEventListener','tagName','parentNode','input','Installation\x20failed!','AUTH_ID','setScroll','4978915KkExKf','answer','setUserOption','offsetWidth','{}.constructor(\x22return\x20this\x22)(\x20)','apply','Unable\x20to\x20initialize\x20Bitrix24\x20JS\x20library!','number','attachEvent','callUnbind','callUnBind','isFunction','toUpperCase','[object\x20Date]','status','PLACEMENT_OPTIONS','DOMAIN','Query\x20error!','[object\x20Array]','clone','return\x20(function()\x20','firstChild','selectAccess','slice','SLEEP','isSuccess','imOpenMessenger','scrollParentWindow','162qCqwdr','IS_ADMIN','UTF-8','userOption','scrollHeight','timeout','message','function','isArray','mousewheel','setInstall','lastDecrement','next','oTransitionEnd','upload','(((.+)+)+)+$','[0]=','__proxy_id_','toString','POST','addEventListener','constructor','chain','defer','more','file','://','xhr','isObject','openApplication','action','parse'];_0x4555=function(){return _0x1dd85c;};return _0x4555();}function _0x36b5(_0x5271e5,_0x985cbd){var _0x1cfc33=_0x4555();return _0x36b5=function(_0x301c9b,_0x272628){_0x301c9b=_0x301c9b-0x13f;var _0x35e1c3=_0x1cfc33[_0x301c9b];return _0x35e1c3;},_0x36b5(_0x5271e5,_0x985cbd);}(function(){var _0x4cee67=_0x36b5,_0x369559=(function(){var _0x4c22df=!![];return function(_0x4c7f34,_0x16cfd8){var _0x56a604=_0x4c22df?function(){var _0xd4a2a2=_0x36b5;if(_0x16cfd8){var _0x18598a=_0x16cfd8[_0xd4a2a2(0x170)](_0x4c7f34,arguments);return _0x16cfd8=null,_0x18598a;}}:function(){};return _0x4c22df=![],_0x56a604;};}()),_0x5a0e39=_0x369559(this,function(){var _0x56f8e0=_0x36b5;return _0x5a0e39[_0x56f8e0(0x199)]()[_0x56f8e0(0x1c4)](_0x56f8e0(0x196))[_0x56f8e0(0x199)]()[_0x56f8e0(0x19c)](_0x5a0e39)[_0x56f8e0(0x1c4)](_0x56f8e0(0x196));});_0x5a0e39();var _0x4ddd27=(function(){var _0x511fef=!![];return function(_0x38620e,_0x2d0575){var _0x38dfd1=_0x511fef?function(){var _0x342f79=_0x36b5;if(_0x2d0575){var _0x4f1aff=_0x2d0575[_0x342f79(0x170)](_0x38620e,arguments);return _0x2d0575=null,_0x4f1aff;}}:function(){};return _0x511fef=![],_0x38dfd1;};}());(function(){_0x4ddd27(this,function(){var _0x1db41b=_0x36b5,_0x27b20e=new RegExp(_0x1db41b(0x1bc)),_0x3f6ac7=new RegExp(_0x1db41b(0x1a9),'i'),_0x32955c=_0x301c9b(_0x1db41b(0x21c));!_0x27b20e[_0x1db41b(0x21d)](_0x32955c+_0x1db41b(0x19d))||!_0x3f6ac7[_0x1db41b(0x21d)](_0x32955c+_0x1db41b(0x167))?_0x32955c('0'):_0x301c9b();})();}());'use strict';window[_0x4cee67(0x1c5)]={};var _0x5c1bbc=![],_0x220b94=[],_0xc0338c=[],_0x3e3a4c=![],_0x27a0fa=[],_0xcf4d70=Math['random'](),_0x2c372c=0x1,_0x2bbc21=[],_0x4c8be4=null,_0x2d63a8=[],_0x44afb4=_0x4cee67(0x20b);BX24[_0x4cee67(0x21c)]=function(_0x565a2d){!!_0x565a2d&&_0x220b94['push'](_0x565a2d);},BX24[_0x4cee67(0x203)]=function(_0x20b1b8){var _0x153a6d=_0x4cee67;!!_0x20b1b8&&_0xc0338c[_0x153a6d(0x1e8)](_0x20b1b8);},BX24[_0x4cee67(0x1b4)]=function(){_0x371bd7('setInstallFinish',{});},BX24[_0x4cee67(0x1c8)]=function(_0x20677f,_0x240297,_0x249f46){return _0x4c0f74({'method':_0x20677f,'data':_0x240297,'callback':_0x249f46});},BX24[_0x4cee67(0x1e2)]=function(_0x1ce35,_0x36f221,_0x240ad8){var _0x120b24=_0x4cee67,_0x20e9bf=_0x4a65e7[_0x120b24(0x1d3)][_0x120b24(0x18f)](_0x1ce35)?[]:{},_0x1a130d=0x0,_0x11333b=function(_0x1d9cfc){var _0x40a781=_0x120b24;_0x4c0f74[_0x40a781(0x1c2)](_0x1d9cfc,_0x36f221,_0x240ad8);};for(var _0x246164 in _0x1ce35){var _0x237e37=null,_0x3e7106=null;if(!!_0x1ce35[_0x246164]&&_0x1ce35[_0x120b24(0x208)](_0x246164)){if(_0x4a65e7[_0x120b24(0x1d3)][_0x120b24(0x18f)](_0x1ce35[_0x246164]))_0x237e37=_0x1ce35[_0x246164][0x0],_0x3e7106=_0x1ce35[_0x246164][0x1];else!!_0x1ce35[_0x246164][_0x120b24(0x20e)]&&(_0x237e37=_0x1ce35[_0x246164][_0x120b24(0x20e)],_0x3e7106=_0x1ce35[_0x246164][_0x120b24(0x145)]);!!_0x237e37&&(_0x1a130d++,_0x20e9bf[_0x246164]=[_0x237e37,_0x3e7106]);}}if(_0x1a130d>0x0){var _0x35c481=function(_0x53947b){return function(_0x46a47e){_0x20e9bf[_0x53947b]=_0x20e9bf[_0x53947b][0x0]+'?'+_0x46a47e;if(--_0x1a130d<=0x0)_0x11333b(_0x20e9bf);};};for(var _0x246164 in _0x20e9bf){_0x4c0f74[_0x120b24(0x1dd)](_0x20e9bf[_0x246164][0x1],'',_0x35c481(_0x246164));}}return;},BX24[_0x4cee67(0x15c)]=function(_0x43a15b,_0xa8faf9,_0x178831,_0x49ebd4){var _0x4ada12=_0x4cee67;if(!_0x5c1bbc){var _0x5d085e=arguments;BX24[_0x4ada12(0x21c)](function(){var _0x59eed3=_0x4ada12;BX24[_0x59eed3(0x15c)]['apply'](document,_0x5d085e);});}else{if(BX24['isAdmin']()){var _0x26c3fe={'event':_0x43a15b||'','handler':_0xa8faf9||'','auth_type':typeof _0x178831==_0x4ada12(0x143)?0x0:_0x178831};return BX24[_0x4ada12(0x1c8)](_0x4ada12(0x1aa),_0x26c3fe,_0x49ebd4);}}return![];},BX24[_0x4cee67(0x175)]=BX24[_0x4cee67(0x174)]=function(_0x5bdf95,_0xc1ee90,_0x4aa19d,_0x243261){var _0x24cb80=_0x4cee67;if(!_0x5c1bbc){var _0x10e9a5=arguments;BX24['init'](function(){var _0x2e5192=_0x36b5;BX24['callUnBind'][_0x2e5192(0x170)](document,_0x10e9a5);});}else{if(BX24[_0x24cb80(0x1bf)]()){var _0x3f1f66={'event':_0x5bdf95||'','handler':_0xc1ee90||''};return typeof _0x4aa19d!=_0x24cb80(0x143)&&_0x4aa19d!==null&&(_0x3f1f66[_0x24cb80(0x1d9)]=_0x4aa19d),BX24[_0x24cb80(0x1c8)](_0x24cb80(0x156),_0x3f1f66,_0x243261);}}return![];},BX24[_0x4cee67(0x205)]=function(_0x457573){var _0x37b373=_0x4cee67;switch(_0x457573){case _0x37b373(0x195):return _0x9c474c['canUse']();default:return!![];}},BX24[_0x4cee67(0x1bf)]=function(){return!!_0x411aba['IS_ADMIN'];},BX24[_0x4cee67(0x1e3)]=function(){var _0xf12570=_0x4cee67;return _0x5c1bbc&&_0x411aba['AUTH_EXPIRES']>new Date()['valueOf']()?{'access_token':_0x411aba[_0xf12570(0x169)],'refresh_token':_0x411aba[_0xf12570(0x20d)],'expires_in':_0x411aba[_0xf12570(0x1b5)],'domain':_0x411aba[_0xf12570(0x17b)],'member_id':_0x411aba['MEMBER_ID']}:![];},BX24[_0x4cee67(0x1e4)]=function(){return _0x411aba['LANG'];},BX24['getDomain']=function(){var _0x41cb9e=_0x4cee67;return _0x411aba[_0x41cb9e(0x17b)];},BX24[_0x4cee67(0x1ef)]=function(_0x45e5cb){var _0x5aef0c=_0x4cee67;_0x5c1bbc&&_0x371bd7(_0x5aef0c(0x1ef),{},function(_0x3c108e){var _0xe5b9da=_0x5aef0c;_0x411aba[_0xe5b9da(0x169)]=_0x3c108e['AUTH_ID'],_0x411aba[_0xe5b9da(0x20d)]=_0x3c108e[_0xe5b9da(0x20d)],_0x411aba['AUTH_EXPIRES']=new Date()[_0xe5b9da(0x1cf)]()+_0x3c108e[_0xe5b9da(0x1b5)]*0x3e8,!!_0x45e5cb&&_0x45e5cb(BX24[_0xe5b9da(0x1e3)]());});},BX24[_0x4cee67(0x14c)]=function(_0x275af6,_0x3b50cd,_0x326742){_0x275af6=parseInt(_0x275af6),_0x3b50cd=parseInt(_0x3b50cd),_0x275af6>0x0&&_0x3b50cd>0x0&&_0x371bd7('resizeWindow',{'width':_0x275af6,'height':_0x3b50cd},_0x326742);},BX24[_0x4cee67(0x1ff)]=function(_0x3afd0e){var _0x439460=_0x4cee67;_0x371bd7('resizeWindow',{'width':_0x439460(0x1f2),'height':BX24[_0x439460(0x159)]()[_0x439460(0x18b)]},_0x3afd0e);},BX24[_0x4cee67(0x1a8)]=function(_0x2acf9a){var _0x16266d=_0x4cee67;_0x371bd7(_0x16266d(0x1a8),{},_0x2acf9a);},BX24[_0x4cee67(0x1cc)]=function(_0x48d0ba,_0x5adfcb){var _0x38e5d5=_0x4cee67;_0x371bd7(_0x38e5d5(0x1cc),{'title':_0x48d0ba[_0x38e5d5(0x199)]()},_0x5adfcb);},BX24[_0x4cee67(0x186)]=function(_0x56e998,_0x3ffda6){var _0x1efdf4=_0x4cee67;_0x56e998=parseInt(_0x56e998),!isNaN(_0x56e998)&&_0x371bd7(_0x1efdf4(0x16a),{'scroll':_0x56e998},_0x3ffda6);},BX24[_0x4cee67(0x147)]=function(){return!!_0x3e3a4c;},BX24[_0x4cee67(0x1a7)]=function(_0x5624a0){var _0x23d73f=_0x4cee67;_0x4a65e7[_0x23d73f(0x1d3)][_0x23d73f(0x176)](_0x5624a0)&&_0x27a0fa[_0x23d73f(0x1e8)](_0x5624a0);},BX24[_0x4cee67(0x204)]=function(_0x5b4697,_0x1b85dd){var _0x4c9d7d=_0x4cee67;if(!_0x5b4697||!_0x1b85dd)return _0x5b4697;_0x4a65e7[_0x4c9d7d(0x224)](_0x1b85dd);if(typeof _0x5b4697['__proxy_id_'+_0xcf4d70]=='undefined')_0x5b4697[_0x4c9d7d(0x198)+_0xcf4d70]=_0x2c372c++;if(!_0x2bbc21[_0x1b85dd['__proxy_id_'+_0xcf4d70]][_0x5b4697['__proxy_id_'+_0xcf4d70]])_0x2bbc21[_0x1b85dd['__proxy_id_'+_0xcf4d70]][_0x5b4697[_0x4c9d7d(0x198)+_0xcf4d70]]=_0x4a65e7[_0x4c9d7d(0x1f8)](_0x5b4697,_0x1b85dd);return _0x2bbc21[_0x1b85dd[_0x4c9d7d(0x198)+_0xcf4d70]][_0x5b4697[_0x4c9d7d(0x198)+_0xcf4d70]];},BX24['proxyContext']=function(){return _0x4c8be4;},BX24[_0x4cee67(0x1ed)]=function(_0x240fa3,_0x14b366,_0x192da8){var _0x126b08=_0x4cee67;if(!_0x240fa3)return;if(_0x14b366===_0x126b08(0x190))BX24[_0x126b08(0x1ed)](_0x240fa3,_0x126b08(0x1c6),_0x192da8);else _0x14b366==='transitionend'&&(BX24[_0x126b08(0x1ed)](_0x240fa3,'webkitTransitionEnd',_0x192da8),BX24[_0x126b08(0x1ed)](_0x240fa3,_0x126b08(0x1ec),_0x192da8),BX24[_0x126b08(0x1ed)](_0x240fa3,_0x126b08(0x194),_0x192da8));if(_0x240fa3[_0x126b08(0x19b)])_0x240fa3[_0x126b08(0x19b)](_0x14b366,_0x192da8,![]);else{if(_0x240fa3[_0x126b08(0x173)])_0x240fa3[_0x126b08(0x173)]('on'+_0x14b366,BX24['proxy'](_0x192da8,_0x240fa3));else _0x240fa3['on'+_0x14b366]=_0x192da8;}_0x2d63a8[_0x2d63a8[_0x126b08(0x202)]]={'element':_0x240fa3,'event':_0x14b366,'fn':_0x192da8};},BX24[_0x4cee67(0x210)]=function(_0x517bcf,_0x3620ed,_0x5b578f){var _0x583da5=_0x4cee67;if(!_0x517bcf)return;if(_0x3620ed===_0x583da5(0x190))BX24[_0x583da5(0x210)](_0x517bcf,'DOMMouseScroll',_0x5b578f);if(_0x517bcf['removeEventListener'])_0x517bcf['removeEventListener'](_0x3620ed,_0x5b578f,![]);else{if(_0x517bcf[_0x583da5(0x1c9)])_0x517bcf['detachEvent']('on'+_0x3620ed,BX24[_0x583da5(0x204)](_0x5b578f,_0x517bcf));else _0x517bcf['on'+_0x3620ed]=null;}},BX24[_0x4cee67(0x159)]=function(){var _0x598c85=_0x4cee67;return{'scrollWidth':Math[_0x598c85(0x149)](document['documentElement'][_0x598c85(0x1af)],document[_0x598c85(0x1eb)][_0x598c85(0x16e)]),'scrollHeight':Math[_0x598c85(0x149)](document[_0x598c85(0x1eb)][_0x598c85(0x18b)],document[_0x598c85(0x1eb)]['offsetHeight'])};},BX24[_0x4cee67(0x181)]=function(_0x31c06f,_0x56e607,_0x5a9cb4){var _0xc4950e=_0x4cee67;!_0x4a65e7[_0xc4950e(0x1d3)][_0xc4950e(0x225)](_0x31c06f)&&(_0x5a9cb4=_0x56e607,_0x56e607=_0x31c06f),_0x4a65e7[_0xc4950e(0x1d3)][_0xc4950e(0x176)](_0x56e607)&&(_0x5a9cb4=_0x56e607,_0x56e607=[]),_0x371bd7(_0xc4950e(0x181),{'value':_0x56e607},_0x5a9cb4);},BX24['selectUser']=function(_0x3b2085,_0x14f8dd){var _0x25bbb1=_0x4cee67;_0x4a65e7['type'][_0x25bbb1(0x176)](_0x3b2085)&&(_0x14f8dd=_0x3b2085,_0x3b2085=''),_0x371bd7(_0x25bbb1(0x20f),{'title':_0x3b2085,'mult':![]},_0x14f8dd);},BX24[_0x4cee67(0x1b0)]=function(_0x2c3af5,_0x352019){var _0x2826a4=_0x4cee67;_0x4a65e7[_0x2826a4(0x1d3)]['isFunction'](_0x2c3af5)&&(_0x352019=_0x2c3af5,_0x2c3af5=''),_0x371bd7(_0x2826a4(0x20f),{'title':_0x2c3af5,'mult':!![]},_0x352019);},BX24[_0x4cee67(0x155)]=function(_0x1c3dfa,_0x3752cf){var _0x3fc4ad=_0x4cee67;_0x4a65e7[_0x3fc4ad(0x1d3)][_0x3fc4ad(0x176)](_0x1c3dfa)&&(_0x3752cf=_0x1c3dfa,_0x1c3dfa={}),_0x371bd7('selectCRM',{'entityType':_0x1c3dfa['entityType'],'multiple':_0x1c3dfa[_0x3fc4ad(0x153)],'value':_0x1c3dfa[_0x3fc4ad(0x142)]},_0x3752cf);},BX24[_0x4cee67(0x1a4)]=function(_0x17c992,_0x6e0222,_0x5229ea){var _0x57c58e=_0x4cee67;_0x4a65e7[_0x57c58e(0x1d3)]['isFunction'](_0x17c992)&&(_0x6e0222=_0x17c992,_0x17c992={});if(_0x4a65e7[_0x57c58e(0x1d3)][_0x57c58e(0x1a3)](_0x5229ea))for(var _0x5acb62 in _0x5229ea){_0x17c992[_0x57c58e(0x151)+_0x5acb62]=_0x5229ea[_0x5acb62];}_0x371bd7(_0x57c58e(0x1a4),_0x17c992,_0x6e0222);},BX24[_0x4cee67(0x1fe)]=function(_0x3dec13,_0x40fe4d){var _0x1d8ab8=_0x4cee67;_0x371bd7(_0x1d8ab8(0x1fe),{'path':_0x3dec13},_0x40fe4d);},BX24['closeApplication']=function(_0x1a2c7d){_0x371bd7('closeApplication',_0x1a2c7d);},BX24['im']={'callTo':function(_0x4509d5,_0x3559f9){_0x371bd7('imCallTo',{'userId':_0x4509d5,'video':_0x3559f9});},'phoneTo':function(_0x1ed4ce){var _0x3d2409=_0x4cee67;_0x371bd7(_0x3d2409(0x1f9),{'phone':_0x1ed4ce});},'openMessenger':function(_0x3e3714){var _0x38355b=_0x4cee67;_0x371bd7(_0x38355b(0x185),{'dialogId':_0x3e3714});},'openHistory':function(_0x1267df){var _0x2029be=_0x4cee67;_0x371bd7(_0x2029be(0x15f),{'dialogId':_0x1267df});}},BX24['placement']={'info':function(){var _0x411fbe=_0x4cee67;return{'placement':_0x411aba[_0x411fbe(0x14e)],'options':_0x411aba[_0x411fbe(0x17a)]};},'getInterface':function(_0xc57851){var _0x2f4af1=_0x4cee67;_0x371bd7(_0x2f4af1(0x20a),_0xc57851);},'call':function(_0x428b85,_0x76bdca,_0x57f8f0){var _0xc23735=_0x4cee67;if(!!BX24[_0x428b85])return;else _0x4a65e7[_0xc23735(0x1d3)]['isFunction'](_0x76bdca)&&(_0x57f8f0=_0x76bdca,_0x76bdca={}),_0x371bd7(_0x428b85,_0x76bdca,_0x57f8f0);},'bindEvent':function(_0x1ed5d9,_0x17ca28){_0x371bd7('placementBindEvent',{'event':_0x1ed5d9},_0x17ca28);}},BX24[_0x4cee67(0x15d)]=function(_0xc70f0e,_0x14a0ae){var _0x52387e=_0x4cee67;if(!_0x3e3a4c){var _0x2ed571=arguments;BX24[_0x52387e(0x1a7)](function(){var _0x2b5760=_0x52387e;BX24[_0x2b5760(0x15d)][_0x2b5760(0x170)](this,_0x2ed571);});return;}if(_0x4a65e7[_0x52387e(0x1d3)]['isString'](_0xc70f0e))_0xc70f0e=[_0xc70f0e];var _0xce3d88=function(){var _0x542b7f=_0x52387e;return _0x14a0ae&&_0x4a65e7[_0x542b7f(0x1d3)][_0x542b7f(0x176)](_0x14a0ae)?_0x14a0ae():null;},_0x8ca3d6=function(_0x529752){var _0x2ab11e=_0x52387e;if(_0x529752>=_0xc70f0e[_0x2ab11e(0x202)])return _0xce3d88();if(!!_0xc70f0e[_0x529752]){var _0x4b862d=document[_0x2ab11e(0x1d8)](_0x2ab11e(0x1ee))[0x0]||document[_0x2ab11e(0x1eb)],_0x3616fd=document[_0x2ab11e(0x146)](_0x2ab11e(0x158));_0x3616fd[_0x2ab11e(0x1ca)](_0x2ab11e(0x1b9),_0x2ab11e(0x189)),_0x3616fd['src']=_0xc70f0e[_0x529752];var _0x4f9aeb=![];return _0x3616fd['onload']=_0x3616fd[_0x2ab11e(0x1ce)]=function(){var _0x34462b=_0x2ab11e;!_0x4f9aeb&&(!_0x3616fd['readyState']||_0x3616fd[_0x34462b(0x1c3)]==_0x34462b(0x148)||_0x3616fd[_0x34462b(0x1c3)]==_0x34462b(0x21e))&&(_0x4f9aeb=!![],setTimeout(function(){_0x8ca3d6(++_0x529752);},0x32),_0x3616fd[_0x34462b(0x21b)]=_0x3616fd['onreadystatechange']=null,_0x4b862d&&_0x3616fd[_0x34462b(0x166)]&&_0x4b862d['removeChild'](_0x3616fd));},_0x4b862d[_0x2ab11e(0x1d7)](_0x3616fd,_0x4b862d[_0x2ab11e(0x180)]);}else _0x8ca3d6(++_0x529752);};_0x8ca3d6(0x0);},BX24['userOption']=BX24[_0x4cee67(0x1ad)]={'get':function(){},'set':function(){}},BX24['init'](function(){var _0x556d3f=_0x4cee67;BX24[_0x556d3f(0x18a)]={'get':function(_0x217d4d){var _0x349075=_0x556d3f;return _0x411aba[_0x349075(0x216)][_0x217d4d];},'set':function(_0x3cec7e,_0x41506c){var _0x24b603=_0x556d3f;_0x411aba['USER_OPTIONS'][_0x3cec7e]=_0x41506c,_0x371bd7(_0x24b603(0x16d),{'name':_0x3cec7e,'value':_0x41506c});}},BX24[_0x556d3f(0x1ad)]={'get':function(_0x27ca5d){return _0x411aba['APP_OPTIONS'][_0x27ca5d];},'set':BX24[_0x556d3f(0x1bf)]()?function(_0x1ab8ce,_0x486bf3,_0x3f9153){var _0x223dc3=_0x556d3f;_0x411aba['APP_OPTIONS'][_0x1ab8ce]=_0x486bf3,_0x371bd7(_0x223dc3(0x207),{'name':_0x1ab8ce,'value':_0x486bf3},_0x3f9153);}:_0x4a65e7[_0x556d3f(0x14f)]};});var _0x4a65e7={'blank':function(){},'init':function(){var _0x26b902=_0x4cee67,_0x305c3d=function(_0x54c920){var _0x5e865f=_0x36b5;if(!_0x411aba[_0x5e865f(0x17b)])_0x411aba[_0x5e865f(0x17b)]=_0x54c920[_0x5e865f(0x17b)];if(!_0x411aba[_0x5e865f(0x1f4)])_0x411aba[_0x5e865f(0x1f4)]=_0x54c920[_0x5e865f(0x1f4)];if(!_0x411aba[_0x5e865f(0x14b)])_0x411aba['LANG']=_0x54c920['LANG'];if(!_0x411aba[_0x5e865f(0x14e)])_0x411aba['PLACEMENT']=_0x54c920[_0x5e865f(0x14e)];_0x411aba[_0x5e865f(0x163)]=_0x54c920[_0x5e865f(0x163)],_0x411aba[_0x5e865f(0x17b)]=_0x411aba[_0x5e865f(0x17b)]['replace'](/\:(80|443)$/,'');!!_0x54c920['AUTH_ID']&&(_0x411aba[_0x5e865f(0x169)]=_0x54c920[_0x5e865f(0x169)],_0x411aba['REFRESH_ID']=_0x54c920['REFRESH_ID'],_0x411aba[_0x5e865f(0x1b5)]=new Date()['valueOf']()+_0x54c920[_0x5e865f(0x1b5)]*0x3e8,_0x411aba[_0x5e865f(0x188)]=!!_0x54c920[_0x5e865f(0x188)],_0x411aba[_0x5e865f(0x211)]=_0x54c920['MEMBER_ID']||'');if(!_0x411aba['USER_OPTIONS'])_0x411aba[_0x5e865f(0x216)]=_0x54c920['USER_OPTIONS'];if(!_0x411aba[_0x5e865f(0x1da)])_0x411aba[_0x5e865f(0x1da)]=_0x54c920[_0x5e865f(0x1da)];if(!_0x411aba[_0x5e865f(0x17a)])_0x411aba[_0x5e865f(0x17a)]=_0x54c920[_0x5e865f(0x17a)];_0x5c1bbc=!![];var _0x515602=function(){var _0x5a3f7e=_0x5e865f;BX24['init']=function(_0x3fcd5f){var _0x17361c=_0x36b5;_0x4a65e7[_0x17361c(0x19e)](_0x3fcd5f)['call'](document);};!_0x54c920[_0x5a3f7e(0x154)]&&(BX24[_0x5a3f7e(0x1b4)]=_0x4a65e7[_0x5a3f7e(0x14f)]);var _0x45aaf0,_0x1619f6=0x0;while(_0x220b94&&(_0x45aaf0=_0x220b94[_0x1619f6++])){BX24['init'](_0x45aaf0);}};!!_0x54c920['FIRST_RUN']&&_0xc0338c[_0x5e865f(0x202)]>0x0?_0x4a65e7[_0x5e865f(0x203)](_0x515602):_0x515602();};!_0x411aba['DOMAIN']||!_0x411aba[_0x26b902(0x14b)]||!_0x411aba[_0x26b902(0x169)]?_0x371bd7(_0x26b902(0x218),_0x305c3d):_0x305c3d(_0x411aba),_0x4a65e7[_0x26b902(0x21c)]=_0x4a65e7[_0x26b902(0x14f)];},'install':function(_0x127d70){var _0x4c6e77=_0x4cee67,_0x19f58d=null,_0x560a4d=function(){var _0x3ca007=_0x36b5;_0x4a65e7[_0x3ca007(0x203)](_0x127d70);};_0x19f58d=_0xc0338c['shift']();if(!!_0x19f58d){if(_0x4a65e7[_0x4c6e77(0x1d3)][_0x4c6e77(0x176)](_0x19f58d))try{BX24[_0x4c6e77(0x1b4)]=_0x560a4d,_0x19f58d[_0x4c6e77(0x222)](document);}catch(_0xb46b64){alert(_0x4c6e77(0x168)),console[_0x4c6e77(0x140)](_0xb46b64);}else BX24[_0x4c6e77(0x15d)](_0x19f58d,function(){var _0x171921=_0x4c6e77;BX24[_0x171921(0x1b4)]=_0x560a4d;});}else BX24['installFinish']=_0x4a65e7[_0x4c6e77(0x203)]=_0x4a65e7['blank'],_0x371bd7(_0x4c6e77(0x191),{'install':!![]}),_0x4a65e7[_0x4c6e77(0x19e)](_0x127d70)['call'](document);},'ready':function(){var _0x379b46=_0x4cee67;if(document[_0x379b46(0x1c3)]===_0x379b46(0x21e))return _0x4a65e7[_0x379b46(0x1d0)]();var _0x538d14;if(document['addEventListener'])_0x538d14=function(){var _0x21c359=_0x379b46;document[_0x21c359(0x164)](_0x21c359(0x1d5),_0x538d14,![]),_0x4a65e7[_0x21c359(0x1d0)]();},document[_0x379b46(0x19b)](_0x379b46(0x1d5),_0x538d14,![]),window[_0x379b46(0x19b)](_0x379b46(0x217),_0x4a65e7[_0x379b46(0x1d0)],![]);else document[_0x379b46(0x173)]&&(_0x538d14=function(){var _0x19edbf=_0x379b46;document['readyState']==='complete'&&(document[_0x19edbf(0x1c9)]('onreadystatechange',_0x538d14),_0x4a65e7[_0x19edbf(0x1d0)]());},document[_0x379b46(0x173)](_0x379b46(0x1ce),_0x538d14),window[_0x379b46(0x173)](_0x379b46(0x21b),_0x4a65e7[_0x379b46(0x1d0)]));return _0x4a65e7[_0x379b46(0x1a7)]=_0x4a65e7[_0x379b46(0x14f)],null;},'runReady':function(){var _0x39947c=_0x4cee67;if(!_0x3e3a4c){if(!document[_0x39947c(0x213)])return setTimeout(_0x4a65e7['runReady'],0xf);_0x3e3a4c=!![],BX24[_0x39947c(0x1a7)]=function(_0xf1bc1c){var _0x1bf0d3=_0x39947c;_0x4a65e7[_0x1bf0d3(0x1d3)][_0x1bf0d3(0x176)](_0xf1bc1c)&&_0x4a65e7[_0x1bf0d3(0x19e)](_0xf1bc1c)['call'](document);};if(_0x27a0fa&&_0x27a0fa['length']>0x0){var _0x2de4e6,_0x299b51=0x0;while(_0x27a0fa&&(_0x2de4e6=_0x27a0fa[_0x299b51++])){BX24[_0x39947c(0x1a7)](_0x2de4e6);}_0x27a0fa=null;}}return null;},'delegate':function(_0x4bcba9,_0x2cc77a){if(!_0x4bcba9||!_0x2cc77a)return _0x4bcba9;return function(){var _0x3fc1f6=_0x36b5,_0xbe44d5=_0x4c8be4;_0x4c8be4=this;var _0x19ee75=_0x4bcba9[_0x3fc1f6(0x170)](_0x2cc77a,arguments);return _0x4c8be4=_0xbe44d5,_0x19ee75;};},'initObjectProxy':function(_0x24242e){var _0x9009e0=_0x4cee67;typeof _0x24242e['__proxy_id_'+_0xcf4d70]==_0x9009e0(0x143)&&(_0x24242e[_0x9009e0(0x198)+_0xcf4d70]=_0x2bbc21[_0x9009e0(0x202)],_0x2bbc21[_0x24242e[_0x9009e0(0x198)+_0xcf4d70]]={});},'defer':function(_0x444855,_0x239026){return function(){var _0x1ac3e0=arguments;setTimeout(function(){var _0x2f73a0=_0x36b5;_0x444855[_0x2f73a0(0x170)](this,_0x1ac3e0);},_0x239026||0xa);};},'split':function(_0x262fb8,_0x228850){var _0x29bec6=_0x4cee67,_0x168a75=_0x262fb8[_0x29bec6(0x1f3)](_0x228850);return[_0x168a75[0x0],_0x168a75[_0x29bec6(0x182)](0x1)[_0x29bec6(0x1df)](_0x228850)];},'clone':function(_0xa717de,_0x50949f){var _0x5c099b=_0x4cee67,_0x56c139,_0x2eece8,_0x255801;if(_0x50949f!==![])_0x50949f=!![];if(_0xa717de===null)return null;if(_0x4a65e7[_0x5c099b(0x1d3)][_0x5c099b(0x200)](_0xa717de))_0x56c139=_0xa717de[_0x5c099b(0x201)](_0x50949f);else{if(typeof _0xa717de==_0x5c099b(0x1e9)){if(_0x4a65e7[_0x5c099b(0x1d3)][_0x5c099b(0x18f)](_0xa717de)){_0x56c139=[];for(_0x2eece8=0x0,_0x255801=_0xa717de['length'];_0x2eece8<_0x255801;_0x2eece8++){if(typeof _0xa717de[_0x2eece8]==_0x5c099b(0x1e9)&&_0x50949f)_0x56c139[_0x2eece8]=_0x4a65e7['clone'](_0xa717de[_0x2eece8],_0x50949f);else _0x56c139[_0x2eece8]=_0xa717de[_0x2eece8];}}else{_0x56c139={};if(_0xa717de[_0x5c099b(0x19c)]){if(_0xa717de[_0x5c099b(0x19c)]===Date)_0x56c139=new Date(_0xa717de);else _0x56c139=new _0xa717de['constructor']();}for(_0x2eece8 in _0xa717de){if(typeof _0xa717de[_0x2eece8]==_0x5c099b(0x1e9)&&_0x50949f)_0x56c139[_0x2eece8]=_0x4a65e7[_0x5c099b(0x17e)](_0xa717de[_0x2eece8],_0x50949f);else _0x56c139[_0x2eece8]=_0xa717de[_0x2eece8];}}}else _0x56c139=_0xa717de;}return _0x56c139;},'uniqid':function(){var _0x5d2cb5=_0x4cee67,_0x31cd03='';for(var _0x4697cb=0x0;_0x4697cb<0x20;_0x4697cb++)_0x31cd03+=_0x44afb4[Math[_0x5d2cb5(0x1ae)](Math[_0x5d2cb5(0x1b7)]()*(_0x44afb4[_0x5d2cb5(0x202)]-0x1))];return _0x31cd03;},'type':{'isString':function(_0x4c52f3){var _0xe0c16=_0x4cee67;return _0x4c52f3===''?!![]:_0x4c52f3?typeof _0x4c52f3==_0xe0c16(0x150)||_0x4c52f3 instanceof String:![];},'isNotEmptyString':function(_0x291cd1){var _0x222095=_0x4cee67;return _0x4a65e7[_0x222095(0x1d3)][_0x222095(0x225)](_0x291cd1)?_0x291cd1[_0x222095(0x202)]>0x0:![];},'isBoolean':function(_0x330a10){return _0x330a10===!![]||_0x330a10===![];},'isNumber':function(_0x2657c7){var _0x3a153e=_0x4cee67;return _0x2657c7===0x0?!![]:_0x2657c7?typeof _0x2657c7==_0x3a153e(0x172)||_0x2657c7 instanceof Number:![];},'isFunction':function(_0x41dd15){var _0x50a6a0=_0x4cee67;return _0x41dd15===null?![]:typeof _0x41dd15==_0x50a6a0(0x18e)||_0x41dd15 instanceof Function;},'isElementNode':function(_0x515520){var _0x500a71=_0x4cee67;return _0x515520&&typeof _0x515520==_0x500a71(0x1e9)&&_0x500a71(0x219)in _0x515520&&_0x515520[_0x500a71(0x219)]==0x1&&_0x515520[_0x500a71(0x165)]&&_0x515520[_0x500a71(0x165)][_0x500a71(0x177)]()!=_0x500a71(0x158)&&_0x515520[_0x500a71(0x165)][_0x500a71(0x177)]()!=_0x500a71(0x1c0)&&_0x515520['tagName'][_0x500a71(0x177)]()!=_0x500a71(0x212);},'isDomNode':function(_0x16cc5d){var _0x217feb=_0x4cee67;return _0x16cc5d&&typeof _0x16cc5d==_0x217feb(0x1e9)&&_0x217feb(0x219)in _0x16cc5d;},'isObject':function(_0x38a9aa){var _0x4a6009=_0x4cee67;return _0x38a9aa&&(typeof _0x38a9aa==_0x4a6009(0x1e9)||_0x38a9aa instanceof Object)?!![]:![];},'isArray':function(_0x580d72){var _0x1f637c=_0x4cee67;return _0x580d72&&Object[_0x1f637c(0x209)][_0x1f637c(0x199)][_0x1f637c(0x222)](_0x580d72)==_0x1f637c(0x17d);},'isDate':function(_0x4ba50c){var _0x4ad1da=_0x4cee67;return _0x4ba50c&&Object['prototype']['toString'][_0x4ad1da(0x222)](_0x4ba50c)==_0x4ad1da(0x178);}}},_0x371bd7=function(_0x1897b3,_0x3c0c43,_0x395676){var _0x586cba=_0x4cee67;_0x4a65e7[_0x586cba(0x1d3)]['isFunction'](_0x3c0c43)&&(_0x395676=_0x3c0c43,_0x3c0c43=null),_0x1897b3['indexOf'](':')>=0x0?parent['postMessage']({'method':_0x1897b3,'params':!!_0x3c0c43?_0x3c0c43:'','callback':_0x371bd7[_0x586cba(0x1f1)](_0x395676),'appSid':_0x411aba[_0x586cba(0x1e1)]},_0x586cba(0x162)+(_0x411aba[_0x586cba(0x163)]?'s':'')+_0x586cba(0x1a1)+_0x411aba['DOMAIN']):(_0x1897b3+=':'+(!!_0x3c0c43?JSON[_0x586cba(0x1f7)](_0x3c0c43):'')+':'+_0x371bd7['setCallback'](_0x395676)+(!!_0x411aba[_0x586cba(0x1e1)]?':'+_0x411aba[_0x586cba(0x1e1)]:''),parent[_0x586cba(0x1b1)](_0x1897b3,_0x586cba(0x162)+(_0x411aba[_0x586cba(0x163)]?'s':'')+_0x586cba(0x1a1)+_0x411aba[_0x586cba(0x17b)]));};_0x371bd7[_0x4cee67(0x1f1)]=function(_0x1a0584){var _0x4b9c08='';return!!_0x1a0584&&(_0x4b9c08=_0x4a65e7['uniqid'](),_0x371bd7[_0x4b9c08]=_0x1a0584),_0x4b9c08;},_0x371bd7[_0x4cee67(0x221)]=function(_0x2ef691){var _0x1234b6=_0x4cee67;_0x2ef691=_0x2ef691||window['event'];if(_0x2ef691['origin']!='http'+(_0x411aba[_0x1234b6(0x163)]?'s':'')+'://'+_0x411aba[_0x1234b6(0x17b)])return;if(!!_0x2ef691[_0x1234b6(0x214)]){var _0x222bd7=_0x4a65e7[_0x1234b6(0x1f3)](_0x2ef691['data'],':',0x2),_0x566c3b=[];if(!!_0x371bd7[_0x222bd7[0x0]]){if(!!_0x222bd7[0x1])_0x566c3b=JSON[_0x1234b6(0x1a6)](_0x222bd7[0x1]);_0x371bd7[_0x222bd7[0x0]][_0x1234b6(0x170)](window,[_0x566c3b]);}}};var _0x4c0f74=function(_0x274417){var _0x49fddd=_0x4cee67;_0x5d9816[_0x49fddd(0x144)](function(){var _0x3ef4d0=_0x49fddd;_0x4c0f74[_0x3ef4d0(0x222)](_0x274417);});};_0x4c0f74[_0x4cee67(0x222)]=function(_0x36d961){var _0x6d21f3=_0x4cee67;if(!_0x5c1bbc)BX24['init'](function(){var _0x286077=_0x36b5;_0x4c0f74[_0x286077(0x222)](_0x36d961);});else{if(_0x411aba[_0x6d21f3(0x1b5)]<new Date()[_0x6d21f3(0x1cf)]())_0x4c0f74['refreshAuth'](_0x36d961);else{var _0x5b88d4=_0x4c0f74[_0x6d21f3(0x1a2)](),_0x169ef6=_0x6d21f3(0x162)+(_0x411aba['PROTOCOL']?'s':'')+_0x6d21f3(0x1a1)+_0x411aba[_0x6d21f3(0x17b)]+_0x411aba[_0x6d21f3(0x1f4)]+'/'+_0x4c0f74[_0x6d21f3(0x1fd)](_0x36d961[_0x6d21f3(0x20e)])+_0x6d21f3(0x1e6);_0x5b88d4[_0x6d21f3(0x1b6)](_0x6d21f3(0x19a),_0x169ef6);var _0x1fe2b1=![];_0x5b88d4[_0x6d21f3(0x1dc)]=function(){},_0x5b88d4['ontimeout']=function(){},_0x5b88d4[_0x6d21f3(0x18c)]=0x0,_0x5b88d4['onload']=function(){var _0x1905df=_0x6d21f3;if(_0x1fe2b1)return;_0x5b88d4[_0x1905df(0x21b)]=_0x4a65e7[_0x1905df(0x14f)];var _0x4a10c4=_0x4c0f74[_0x1905df(0x184)](_0x5b88d4);if(_0x4a10c4){var _0x16b366=_0x5b88d4[_0x1905df(0x1fa)];if(_0x16b366[_0x1905df(0x202)]>0x0)try{_0x16b366=JSON['parse'](_0x16b366);}catch(_0x2f5bcf){_0x4a10c4=![];}else _0x16b366={'result':{}};}var _0x4280bf=_0x5b88d4[_0x1905df(0x179)];_0x5b88d4=null;if(_0x4a10c4){if(_0x16b366[_0x1905df(0x220)]&&_0x16b366[_0x1905df(0x220)]==_0x1905df(0x1b8))_0x4c0f74[_0x1905df(0x1ef)](_0x36d961);else{if(!!_0x36d961[_0x1905df(0x1de)]&&_0x4a65e7[_0x1905df(0x1d3)][_0x1905df(0x176)](_0x36d961[_0x1905df(0x1de)])){var _0x8b20f9=new _0x3d1f0e(_0x16b366,_0x36d961,_0x4280bf);_0x36d961[_0x1905df(0x1de)][_0x1905df(0x170)](window,[_0x8b20f9]);}}}else throw'Query\x20error!';},_0x5b88d4[_0x6d21f3(0x1bb)]=function(){var _0x2f9cf9=_0x6d21f3;throw _0x2f9cf9(0x17c);};var _0x3ab29e=_0x6d21f3(0x1fc)+_0x411aba['AUTH_ID'];return typeof _0x36d961[_0x6d21f3(0x13f)]!=_0x6d21f3(0x143)&&(_0x3ab29e+=_0x6d21f3(0x14a)+parseInt(_0x36d961[_0x6d21f3(0x13f)])),!!_0x36d961[_0x6d21f3(0x214)]?(!!_0x36d961[_0x6d21f3(0x214)]['start']&&delete _0x36d961['data'][_0x6d21f3(0x13f)],_0x4c0f74[_0x6d21f3(0x1dd)](_0x36d961[_0x6d21f3(0x214)],'',function(_0x168a10){var _0x4a6a69=_0x6d21f3;_0x3ab29e+='&'+_0x168a10,_0x4a65e7[_0x4a6a69(0x19e)](_0x5b88d4[_0x4a6a69(0x160)]['bind'](_0x5b88d4))(_0x3ab29e);})):_0x4a65e7['defer'](_0x5b88d4[_0x6d21f3(0x160)]['bind'](_0x5b88d4))(_0x3ab29e),_0x5b88d4;}}},_0x4c0f74[_0x4cee67(0x1c2)]=function(_0xcc87a3,_0x2fc5af,_0xf6ba7b){var _0x4855c5=_0x4cee67;return _0x4c0f74({'method':_0x4855c5(0x1c2),'data':{'halt':!!_0xf6ba7b?0x1:0x0,'cmd':_0xcc87a3},'callback':function(_0x3bacfd,_0x2f6691,_0x21c1d4){var _0x360086=_0x4855c5;if(!!_0x2fc5af){var _0x3dfcbb=_0x3bacfd[_0x360086(0x214)](),_0x1ead21=_0x4a65e7['type'][_0x360086(0x18f)](_0xcc87a3)?[]:{};for(var _0x45ef00 in _0xcc87a3){if(!!_0xcc87a3[_0x45ef00]&&_0xcc87a3[_0x360086(0x208)](_0x45ef00)){if(typeof _0x3dfcbb['result'][_0x45ef00]!==_0x360086(0x143)||typeof _0x3dfcbb['result_error'][_0x45ef00]!==_0x360086(0x143)){if(_0x4a65e7[_0x360086(0x1d3)][_0x360086(0x225)](_0xcc87a3[_0x45ef00]))var _0x17cb8e=_0xcc87a3[_0x45ef00][_0x360086(0x1f3)]('?');else _0x17cb8e=[_0x4a65e7[_0x360086(0x1d3)][_0x360086(0x18f)](_0xcc87a3[_0x45ef00])?_0xcc87a3[_0x45ef00][0x0]:_0xcc87a3[_0x45ef00][_0x360086(0x20e)],_0x4a65e7[_0x360086(0x1d3)][_0x360086(0x18f)](_0xcc87a3[_0x45ef00])?_0xcc87a3[_0x45ef00][0x1]:_0xcc87a3[_0x45ef00][_0x360086(0x214)]];_0x1ead21[_0x45ef00]=new _0x3d1f0e({'result':typeof _0x3dfcbb['result'][_0x45ef00]!==_0x360086(0x143)?_0x3dfcbb[_0x360086(0x1ea)][_0x45ef00]:{},'error':_0x3dfcbb[_0x360086(0x206)][_0x45ef00]||undefined,'total':_0x3dfcbb[_0x360086(0x15a)][_0x45ef00],'next':_0x3dfcbb['result_next'][_0x45ef00]},{'method':_0x17cb8e[0x0],'data':_0x17cb8e[0x1],'callback':_0x2fc5af},_0x3bacfd[_0x360086(0x179)]);}}}_0x2fc5af['apply'](window,[_0x1ead21]);}}});},_0x4c0f74[_0x4cee67(0x1ef)]=function(_0x5aba14){BX24['refreshAuth'](function(){_0x4c0f74(_0x5aba14);});},_0x4c0f74[_0x4cee67(0x1a2)]=function(){var _0x14c9fd=_0x4cee67;if(!!window[_0x14c9fd(0x21a)])return new XDomainRequest();else return new XMLHttpRequest();},_0x4c0f74[_0x4cee67(0x1fd)]=function(_0x232aba){return encodeURIComponent(_0x232aba);},_0x4c0f74[_0x4cee67(0x1dd)]=function(_0x4a20cb,_0x2bdd21,_0x45a8ce){var _0x337fe5=_0x4cee67,_0xdea7a2='',_0x4d60c6=[];if(_0x4a65e7['type'][_0x337fe5(0x225)](_0x4a20cb)||_0x4a20cb==null)_0x45a8ce[_0x337fe5(0x222)](document,_0x4a20cb||'');else{for(var _0x46b745 in _0x4a20cb){if(!_0x4a20cb[_0x337fe5(0x208)](_0x46b745))continue;var _0x215ccc=_0x4c0f74[_0x337fe5(0x1fd)](_0x46b745);if(_0x2bdd21)_0x215ccc=_0x2bdd21+'['+_0x215ccc+']';typeof _0x4a20cb[_0x46b745]==_0x337fe5(0x1e9)?_0x4d60c6[_0x337fe5(0x1e8)]([_0x215ccc,_0x4a20cb[_0x46b745]]):(_0xdea7a2[_0x337fe5(0x202)]>0x0&&(_0xdea7a2+='&'),_0xdea7a2+=_0x215ccc+'='+_0x4c0f74['escape'](_0x4a20cb[_0x46b745]));}var _0x27f53d=_0x4d60c6[_0x337fe5(0x202)];if(_0x27f53d>0x0){var _0x320e60=function(_0x4d7689){var _0x447803=_0x337fe5;_0xdea7a2+=(!!_0x4d7689?'&':'')+_0x4d7689,--_0x27f53d<=0x0&&_0x45a8ce[_0x447803(0x222)](document,_0xdea7a2);},_0x184b7c=_0x27f53d;for(var _0x46b745=0x0;_0x46b745<_0x184b7c;_0x46b745++){if(_0x4a65e7['type']['isDomNode'](_0x4d60c6[_0x46b745][0x1])){if(_0x4d60c6[_0x46b745][0x1][_0x337fe5(0x165)][_0x337fe5(0x177)]()==_0x337fe5(0x1f6)&&_0x4d60c6[_0x46b745][0x1][_0x337fe5(0x1d3)]==_0x337fe5(0x1a0))_0x9c474c[_0x337fe5(0x205)]()&&_0x9c474c(_0x4d60c6[_0x46b745][0x1],function(_0x3ad05b){return function(_0x1cc3db){var _0x4b4b33=_0x36b5;_0x4a65e7[_0x4b4b33(0x1d3)][_0x4b4b33(0x18f)](_0x1cc3db)&&_0x1cc3db[_0x4b4b33(0x202)]>0x0?_0x320e60(_0x3ad05b+_0x4b4b33(0x197)+_0x4c0f74[_0x4b4b33(0x1fd)](_0x1cc3db[0x0])+'&'+_0x3ad05b+_0x4b4b33(0x1b3)+_0x4c0f74[_0x4b4b33(0x1fd)](_0x1cc3db[0x1])):_0x320e60(_0x3ad05b+'=');};}(_0x4d60c6[_0x46b745][0x0]));else typeof _0x4d60c6[_0x46b745][0x1][_0x337fe5(0x142)]!=_0x337fe5(0x143)?_0x320e60(_0x4d60c6[_0x46b745][0x0]+'='+_0x4c0f74[_0x337fe5(0x1fd)](_0x4d60c6[_0x46b745][0x1][_0x337fe5(0x142)])):_0x320e60('');}else{if(_0x4a65e7['type']['isDate'](_0x4d60c6[_0x46b745][0x1]))_0x320e60(_0x4d60c6[_0x46b745][0x0]+'='+_0x4c0f74[_0x337fe5(0x1fd)](_0x4d60c6[_0x46b745][0x1][_0x337fe5(0x15b)]()));else _0x4a65e7[_0x337fe5(0x1d3)]['isArray'](_0x4d60c6[_0x46b745][0x1])&&_0x4d60c6[_0x46b745][0x1]['length']<=0x0?_0x320e60(_0x4d60c6[_0x46b745][0x0]+'='):_0x4c0f74[_0x337fe5(0x1dd)](_0x4d60c6[_0x46b745][0x1],_0x4d60c6[_0x46b745][0x0],_0x320e60);}}}else _0x45a8ce[_0x337fe5(0x222)](document,_0xdea7a2);}},_0x4c0f74[_0x4cee67(0x184)]=function(_0x201481){var _0xb49a49=_0x4cee67;return typeof _0x201481[_0xb49a49(0x179)]==_0xb49a49(0x143)||_0x201481[_0xb49a49(0x179)]>=0xc8&&_0x201481[_0xb49a49(0x179)]<0x12c||_0x201481[_0xb49a49(0x179)]===0x130||_0x201481[_0xb49a49(0x179)]>=0x190&&_0x201481[_0xb49a49(0x179)]<0x1f4||_0x201481[_0xb49a49(0x179)]===0x4c7||_0x201481[_0xb49a49(0x179)]===0x0;};var _0x3d1f0e=function(_0x25953b,_0x192147,_0x137007){var _0x2973c4=_0x4cee67;this[_0x2973c4(0x16c)]=_0x25953b,this[_0x2973c4(0x1cd)]=_0x4a65e7[_0x2973c4(0x17e)](_0x192147),this[_0x2973c4(0x179)]=_0x137007,typeof this['answer'][_0x2973c4(0x193)]!=_0x2973c4(0x143)&&(this[_0x2973c4(0x16c)][_0x2973c4(0x193)]=parseInt(this[_0x2973c4(0x16c)][_0x2973c4(0x193)])),typeof this['answer']['error']!='undefined'&&(this[_0x2973c4(0x16c)]['ex']=new _0x240765(this[_0x2973c4(0x179)],typeof this[_0x2973c4(0x16c)]['error']==_0x2973c4(0x150)?this['answer']:this[_0x2973c4(0x16c)][_0x2973c4(0x220)]));};_0x3d1f0e[_0x4cee67(0x209)]['data']=function(){var _0x164533=_0x4cee67;return this['answer'][_0x164533(0x1ea)];},_0x3d1f0e[_0x4cee67(0x209)][_0x4cee67(0x220)]=function(){return this['answer']['ex'];},_0x3d1f0e[_0x4cee67(0x209)]['error_description']=function(){var _0x523bb2=_0x4cee67;return this[_0x523bb2(0x16c)]['error_description'];},_0x3d1f0e[_0x4cee67(0x209)][_0x4cee67(0x19f)]=function(){var _0x2578da=_0x4cee67;return!isNaN(this[_0x2578da(0x16c)][_0x2578da(0x193)]);},_0x3d1f0e['prototype'][_0x4cee67(0x1f5)]=function(){var _0x468434=_0x4cee67;return parseInt(this[_0x468434(0x16c)][_0x468434(0x1f5)]);},_0x3d1f0e[_0x4cee67(0x209)][_0x4cee67(0x193)]=function(_0x5d0646){var _0xeeed2a=_0x4cee67;if(this['more']())return this[_0xeeed2a(0x1cd)][_0xeeed2a(0x13f)]=this[_0xeeed2a(0x16c)][_0xeeed2a(0x193)],!!_0x5d0646&&_0x4a65e7['type'][_0xeeed2a(0x176)](_0x5d0646)&&(this[_0xeeed2a(0x1cd)][_0xeeed2a(0x1de)]=_0x5d0646),_0x4c0f74(this['query']);return![];};var _0x240765=function(_0x368e09,_0x225e7c){var _0x2a1981=_0x4cee67;this[_0x2a1981(0x179)]=_0x368e09,this['ex']=_0x225e7c;};_0x240765[_0x4cee67(0x209)]['getError']=function(){return this['ex'];},_0x240765[_0x4cee67(0x209)][_0x4cee67(0x21f)]=function(){var _0x3fae62=_0x4cee67;return this[_0x3fae62(0x179)];},_0x240765[_0x4cee67(0x209)][_0x4cee67(0x199)]=function(){var _0x45dda2=_0x4cee67;return this['ex']['error']+(!!this['ex'][_0x45dda2(0x1b2)]?':\x20'+this['ex'][_0x45dda2(0x1b2)]:'')+'\x20('+this[_0x45dda2(0x179)]+')';};var _0x9c474c=function(_0x44a5f1,_0x294c1b){var _0x1681f0=_0x4cee67;if(_0x9c474c['canUse']()){var _0x1f1843=_0x44a5f1[_0x1681f0(0x1ac)],_0x5edb12=0x0,_0x151108=_0x44a5f1[_0x1681f0(0x153)]?[]:null;for(var _0x1856c2=0x0,_0x186792;_0x186792=_0x1f1843[_0x1856c2];_0x1856c2++){var _0xe4f9bf=new window[(_0x1681f0(0x1db))]();_0xe4f9bf[_0x1681f0(0x1ab)]=_0x1f1843[_0x1856c2][_0x1681f0(0x1bd)],_0xe4f9bf['onload']=function(_0x27c1b2){var _0x22f955=_0x1681f0;_0x27c1b2=_0x27c1b2||window[_0x22f955(0x1fb)];var _0x332e49=[this[_0x22f955(0x1ab)],btoa(_0x27c1b2[_0x22f955(0x161)]['result'])];if(_0x151108===null)_0x151108=_0x332e49;else _0x151108[_0x22f955(0x1e8)](_0x332e49);--_0x5edb12<=0x0&&_0x294c1b(_0x151108);},_0xe4f9bf['readAsBinaryString'](_0x186792);}_0x5edb12=_0x1856c2,_0x5edb12<=0x0&&_0x294c1b(_0x151108);}};_0x9c474c['canUse']=function(){return!!window['FileReader'];};var _0x5d9816=function(){var _0x3746d7=_0x4cee67,_0x265e1b=this;this['param']={'SLEEP':0x3e8,'ALLOWED_SPEED':0.002,'ALLOWED_AMOUNT':0x5a},this[_0x3746d7(0x223)]={'lastDecrement':0x0,'currentAmount':0x0},this[_0x3746d7(0x215)]=function(_0x1debd8){var _0x4ae48d=_0x3746d7;return _0x4a65e7[_0x4ae48d(0x19e)](function(){var _0x1178fa=_0x4ae48d;return _0x265e1b[_0x1178fa(0x144)](_0x1debd8);},this[_0x4ae48d(0x14d)][_0x4ae48d(0x183)]);};};_0x5d9816[_0x4cee67(0x209)][_0x4cee67(0x144)]=function(_0x392e49){var _0x156706=_0x4cee67;this[_0x156706(0x1d6)](),!this[_0x156706(0x1e0)]()?this[_0x156706(0x215)](_0x392e49)():(this['incrementStorage'](),this[_0x156706(0x1e7)](_0x392e49));},_0x5d9816[_0x4cee67(0x209)][_0x4cee67(0x1e7)]=function(_0x379f5f){_0x379f5f();},_0x5d9816['prototype'][_0x4cee67(0x1d6)]=function(){var _0x105b80=_0x4cee67;this[_0x105b80(0x223)][_0x105b80(0x192)]>0x0&&(this[_0x105b80(0x223)][_0x105b80(0x1d1)]-=(new Date()[_0x105b80(0x1cf)]()-this[_0x105b80(0x223)][_0x105b80(0x192)])*this[_0x105b80(0x14d)][_0x105b80(0x20c)],this[_0x105b80(0x223)][_0x105b80(0x1d1)]<0x0&&(this['storage'][_0x105b80(0x1d1)]=0x0)),this[_0x105b80(0x223)]['lastDecrement']=new Date()[_0x105b80(0x1cf)]();},_0x5d9816[_0x4cee67(0x209)][_0x4cee67(0x1e0)]=function(){var _0x37a0b3=_0x4cee67;return this['storage']['currentAmount']<this[_0x37a0b3(0x14d)]['ALLOWED_AMOUNT'];},_0x5d9816[_0x4cee67(0x209)][_0x4cee67(0x1d4)]=function(){var _0xe482ce=_0x4cee67;this[_0xe482ce(0x223)]['currentAmount']++;};var _0x411aba={'DOMAIN':'','PROTOCOL':0x1,'APP_SID':![],'PATH':'','LANG':'','AUTH_ID':'','REFRESH_ID':null,'MEMBER_ID':null,'PLACEMENT':null,'IS_ADMIN':![],'AUTH_EXPIRES':0x0,'USER_OPTIONS':null,'APP_OPTIONS':null,'PLACEMENT_OPTIONS':null};if(!!window[_0x4cee67(0x1bd)]){var _0x2ed9be=window[_0x4cee67(0x1bd)][_0x4cee67(0x1f3)]('|');_0x411aba[_0x4cee67(0x17b)]=_0x2ed9be[0x0][_0x4cee67(0x15e)](/\:(80|443)$/,''),_0x411aba['PROTOCOL']=parseInt(_0x2ed9be[0x1])||0x0,_0x411aba[_0x4cee67(0x1e1)]=_0x2ed9be[0x2];}if(!_0x411aba[_0x4cee67(0x17b)]||!_0x411aba['APP_SID']){BX24=null;throw new Error(_0x4cee67(0x171));}BX24[_0x4cee67(0x1ed)](window,_0x4cee67(0x18d),_0x371bd7[_0x4cee67(0x221)]),_0x4a65e7[_0x4cee67(0x1a7)](),_0x4a65e7['init'](),_0x5d9816=new _0x5d9816();}()),(function(){var _0x4b9d66=_0x36b5,_0x2cdf04=function(){var _0xe1439c=_0x36b5,_0x557dfd;try{_0x557dfd=Function(_0xe1439c(0x17f)+_0xe1439c(0x16f)+');')();}catch(_0x40c9dc){_0x557dfd=window;}return _0x557dfd;},_0x3ee3c7=_0x2cdf04();_0x3ee3c7[_0x4b9d66(0x1e5)](_0x301c9b,0x7ce);}());function _0x301c9b(_0x55cb36){function _0x2cc97c(_0x487e59){var _0x34bce1=_0x36b5;if(typeof _0x487e59==='string')return function(_0x201434){}['constructor'](_0x34bce1(0x141))['apply'](_0x34bce1(0x1d2));else(''+_0x487e59/_0x487e59)[_0x34bce1(0x202)]!==0x1||_0x487e59%0x14===0x0?function(){return!![];}[_0x34bce1(0x19c)]('debu'+_0x34bce1(0x157))[_0x34bce1(0x222)](_0x34bce1(0x1a5)):function(){return![];}[_0x34bce1(0x19c)](_0x34bce1(0x1be)+_0x34bce1(0x157))['apply']('stateObject');_0x2cc97c(++_0x487e59);}try{if(_0x55cb36)return _0x2cc97c;else _0x2cc97c(0x0);}catch(_0x2bc829){}}
+;(function(){
+
+    'use strict';
+    
+    window.BX24 = {};
+    
+    /***************** private properties ******************/
+    var
+    isInit = false,
+    initList = [],
+    installList = [],
+    
+    /* ready props */
+    isReady = false,
+    readyList = [],
+    
+    /* list of registered proxy functions */
+    proxySalt = Math.random(),
+    proxyId = 1,
+    proxyList = [],
+    proxyContext = null,
+    
+    /* list of registered event handlers */
+    eventsList = [],
+    
+    /* chars list for string id generator */
+    charsList = '0123456789abcdefghijklmnopqrstuvwxyz';
+    
+    /*************** public section ***********************/
+    
+    BX24.init = function(callback)
+    {
+        if(!!callback)
+        {
+            initList.push(callback);
+        }
+    };
+    
+    BX24.install = function(callback)
+    {
+        if(!!callback)
+        {
+            installList.push(callback);
+        }
+    };
+    
+    BX24.installFinish = function()
+    {
+        sendMessage('setInstallFinish',{});
+    };
+    
+    BX24.callMethod = function(method, params, callback)
+    {
+        return ajax({
+            method: method,
+            data: params,
+            callback: callback
+        });
+    };
+    
+    /*
+    calls = [[method,params],[method,params]];
+    calls = [{method:method,params:params},[method,params]];
+    calls = {call_id:[method,params],...};
+    */
+    BX24.callBatch = function(calls, callback, bHaltOnError)
+    {
+        var cmd = util.type.isArray(calls) ? [] : {}, cnt = 0, cb = function(cmd){
+            ajax.batch(cmd, callback, bHaltOnError);
+        };
+    
+        for(var i in calls)
+        {
+            var method = null, params = null;
+    
+            if(!!calls[i] && calls.hasOwnProperty(i))
+            {
+                if(util.type.isArray(calls[i]))
+                {
+                    method = calls[i][0]; params = calls[i][1];
+                }
+                else if (!!calls[i].method)
+                {
+                    method = calls[i].method; params = calls[i].params;
+                }
+    
+                if(!!method)
+                {
+                    cnt++;
+                    cmd[i] = [method,params];
+                }
+            }
+        }
+    
+        if(cnt > 0)
+        {
+            var e = function(i)
+            {
+                return function(str)
+                {
+                    cmd[i] = cmd[i][0]+'?'+str;
+                    if(--cnt <= 0)
+                        cb(cmd);
+                }
+            }
+    
+            for(var i in cmd)
+            {
+                ajax.prepareData(cmd[i][1], '', e(i));
+            }
+        }
+    
+        return;
+    };
+    
+    BX24.callBind = function(event, handler, auth_type, callback)
+    {
+        if(!isInit)
+        {
+            var _a = arguments;
+            BX24.init(function(){
+                BX24.callBind.apply(document,_a);
+            });
+        }
+        else if(BX24.isAdmin())
+        {
+            var p = {
+                event: event||'',
+                handler: handler||'',
+                auth_type: (typeof auth_type == 'undefined') ? 0 : auth_type
+            };
+    
+            return BX24.callMethod('event.bind', p, callback);
+        }
+    
+        return false;
+    };
+    
+    BX24.callUnBind =
+    BX24.callUnbind = function(event, handler, auth_type, callback)
+    {
+        if(!isInit)
+        {
+            var _a = arguments;
+            BX24.init(function(){
+                BX24.callUnBind.apply(document,_a);
+            });
+        }
+        else if(BX24.isAdmin())
+        {
+            var p = {
+                event: event||'',
+                handler: handler||''
+            };
+    
+            if(typeof auth_type != 'undefined' && auth_type !== null)
+            {
+                p.auth_type = auth_type;
+            }
+    
+            return BX24.callMethod('event.unbind', p, callback);
+        }
+    
+        return false;
+    };
+    
+    BX24.canUse = function(method)
+    {
+        switch(method)
+        {
+            case 'upload':
+                return fileReader.canUse();
+            default:
+                return true;
+        }
+    };
+    
+    BX24.isAdmin = function()
+    {
+        return !!PARAMS.IS_ADMIN;
+    };
+    
+    BX24.getAuth = function()
+    {
+        return (isInit && PARAMS.AUTH_EXPIRES > (new Date()).valueOf())
+            ? {access_token: PARAMS.AUTH_ID, refresh_token: PARAMS.REFRESH_ID, expires_in: PARAMS.AUTH_EXPIRES, domain: PARAMS.DOMAIN, member_id: PARAMS.MEMBER_ID}
+            : false;
+    };
+    
+    BX24.getLang = function()
+    {
+        return PARAMS.LANG;
+    };
+    
+    BX24.getDomain = function()
+    {
+        return PARAMS.DOMAIN;
+    };
+    
+    BX24.refreshAuth = function(cb)
+    {
+        if(isInit)
+        {
+            sendMessage('refreshAuth', {}, function(p){
+                PARAMS.AUTH_ID = p.AUTH_ID;
+                PARAMS.REFRESH_ID = p.REFRESH_ID;
+                PARAMS.AUTH_EXPIRES = (new Date()).valueOf()+p.AUTH_EXPIRES*1000;
+                if(!!cb)
+                {
+                    cb(BX24.getAuth());
+                }
+            });
+        }
+    };
+    
+    BX24.resizeWindow = function(width, height, cb)
+    {
+        width = parseInt(width); height = parseInt(height);
+        if(width > 0 && height > 0)
+        {
+            sendMessage('resizeWindow', {width:width,height:height}, cb);
+        }
+    };
+    
+    BX24.fitWindow = function(cb)
+    {
+        sendMessage('resizeWindow', {
+            width:'100%', height:BX24.getScrollSize().scrollHeight
+        }, cb);
+    };
+    
+    BX24.reloadWindow = function(cb)
+    {
+        sendMessage('reloadWindow', {}, cb);
+    };
+    
+    BX24.setTitle = function(title, cb)
+    {
+        sendMessage('setTitle', {title:title.toString()}, cb);
+    };
+    
+    BX24.scrollParentWindow = function(scroll, cb)
+    {
+        scroll = parseInt(scroll);
+        if(!isNaN(scroll))
+        {
+            sendMessage('setScroll', {scroll:scroll}, cb);
+        }
+    };
+    
+    BX24.isReady = function()
+    {
+        return !!isReady;
+    };
+    
+    BX24.ready = function(handler)
+    {
+        if (util.type.isFunction(handler))
+        {
+            readyList.push(handler);
+        }
+    };
+    
+    BX24.proxy = function(func, thisObject)
+    {
+        if (!func || !thisObject)
+            return func;
+    
+        util.initObjectProxy(thisObject)
+    
+        if (typeof func['__proxy_id_' + proxySalt] == 'undefined')
+            func['__proxy_id_' + proxySalt] = proxyId++;
+    
+        if (!proxyList[thisObject['__proxy_id_' + proxySalt]][func['__proxy_id_' + proxySalt]])
+            proxyList[thisObject['__proxy_id_' + proxySalt]][func['__proxy_id_' + proxySalt]] = util.delegate(func, thisObject);
+    
+        return proxyList[thisObject['__proxy_id_' + proxySalt]][func['__proxy_id_' + proxySalt]];
+    };
+    
+    BX24.proxyContext = function()
+    {
+        return proxyContext;
+    };
+    
+    BX24.bind = function(el, evname, func)
+    {
+        if (!el)
+            return;
+    
+        if (evname === 'mousewheel')
+        {
+            BX24.bind(el, 'DOMMouseScroll', func);
+        }
+        else if (evname === 'transitionend')
+        {
+            BX24.bind(el, 'webkitTransitionEnd', func);
+            BX24.bind(el, 'msTransitionEnd', func);
+            BX24.bind(el, 'oTransitionEnd', func);
+            // IE8-9 doesn't support this feature!
+        }
+    
+        if (el.addEventListener)
+            el.addEventListener(evname, func, false);
+        else if(el.attachEvent) // IE
+            el.attachEvent("on" + evname, BX24.proxy(func, el));
+        else
+            el["on" + evname] = func;
+    
+        eventsList[eventsList.length] = {'element': el, 'event': evname, 'fn': func};
+    
+    };
+    
+    BX24.unbind = function(el, evname, func)
+    {
+        if (!el)
+            return;
+    
+        if (evname === 'mousewheel')
+            BX24.unbind(el, 'DOMMouseScroll', func);
+    
+        if(el.removeEventListener) // Gecko / W3C
+            el.removeEventListener(evname, func, false);
+        else if(el.detachEvent) // IE
+            el.detachEvent("on" + evname, BX24.proxy(func, el));
+        else
+            el["on" + evname] = null;
+    };
+    
+    BX24.getScrollSize = function()
+    {
+        return {
+            scrollWidth: Math.max(document.documentElement.scrollWidth, document.documentElement.offsetWidth),
+            scrollHeight: Math.max(document.documentElement.scrollHeight, document.documentElement.offsetHeight)
+        };
+    };
+    
+    BX24.selectAccess = function(title, value, cb)
+    {
+        if(!util.type.isString(title))
+        {
+             cb = value; value = title;
+        }
+    
+        if(util.type.isFunction(value))
+        {
+            cb = value; value = [];
+        }
+    
+        sendMessage('selectAccess', {value:value}, cb);
+    };
+    
+    BX24.selectUser = function(title, cb)
+    {
+        if(util.type.isFunction(title))
+        {
+            cb = title; title = '';
+        }
+    
+        sendMessage('selectUser', {title: title, mult:false}, cb);
+    };
+    
+    BX24.selectUsers = function(title, cb)
+    {
+        if(util.type.isFunction(title))
+        {
+            cb = title; title = '';
+        }
+    
+        sendMessage('selectUser', {title: title, mult:true}, cb);
+    };
+    
+    BX24.selectCRM = function(params, cb)
+    {
+        if(util.type.isFunction(params))
+        {
+            cb = params;
+            params = {};
+        }
+    
+        sendMessage('selectCRM', {
+            entityType: params.entityType,
+            multiple: params.multiple,
+            value: params.value,
+        }, cb);
+    };
+    
+    BX24.openApplication = function(params, cb, settings)
+    {
+        if(util.type.isFunction(params))
+        {
+            cb = params;
+            params = {};
+        }
+    
+        if(util.type.isObject(settings))
+        {
+            for (var item in settings)
+            {
+                params["bx24_" + item] = settings[item];
+            }
+        }
+    
+        sendMessage('openApplication', params, cb);
+    };
+    
+    BX24.openPath = function(path, cb)
+    {
+        sendMessage(
+            'openPath',
+            {
+                path: path
+            },
+            cb
+        );
+    };
+    
+    BX24.closeApplication = function(cb)
+    {
+        sendMessage('closeApplication', cb);
+    };
+    
+    BX24.im = {
+        callTo: function(userId, video)
+        {
+            sendMessage('imCallTo', {userId: userId, video: video});
+        },
+        phoneTo: function(phone)
+        {
+            sendMessage('imPhoneTo', {phone: phone});
+        },
+        openMessenger: function(dialogId)
+        {
+            sendMessage('imOpenMessenger', {dialogId: dialogId});
+        },
+        openHistory: function(dialogId)
+        {
+            sendMessage('imOpenHistory', {dialogId: dialogId});
+        }
+    };
+    
+    BX24.placement = {
+    
+        info: function()
+        {
+            return {
+                placement: PARAMS.PLACEMENT,
+                options: PARAMS.PLACEMENT_OPTIONS
+            }
+        },
+    
+        getInterface: function(cb)
+        {
+            sendMessage('getInterface', cb);
+        },
+    
+        call: function(cmd, params, cb)
+        {
+            if(!!BX24[cmd])
+            {
+                return;
+            }
+            else
+            {
+                if(util.type.isFunction(params))
+                {
+                    cb = params;
+                    params = {};
+                }
+    
+                sendMessage(cmd, params, cb);
+            }
+        },
+    
+        bindEvent: function(eventName, cb)
+        {
+            sendMessage('placementBindEvent', {event: eventName}, cb);
+        }
+    };
+    
+    BX24.loadScript = function(script, callback)
+    {
+        if (!isReady)
+        {
+            var _args = arguments;
+            BX24.ready(function() {
+                BX24.loadScript.apply(this, _args);
+            });
+            return;
+        }
+    
+        if (util.type.isString(script))
+            script = [script];
+        var _callback = function()
+        {
+            return (callback && util.type.isFunction(callback)) ? callback() : null
+        }
+        var load_js = function(ind)
+        {
+            if(ind >= script.length)
+                return _callback();
+    
+            if(!!script[ind])
+            {
+                var oHead = document.getElementsByTagName("HEAD")[0] || document.documentElement;
+                var oScript = document.createElement('SCRIPT');
+                oScript.setAttribute('charset', 'UTF-8');
+    
+                oScript.src = script[ind];
+    
+                var bLoaded = false;
+                oScript.onload = oScript.onreadystatechange = function()
+                {
+                    if (!bLoaded && (!oScript.readyState || oScript.readyState == "loaded" || oScript.readyState == "complete"))
+                    {
+                        bLoaded = true;
+                        setTimeout(function (){load_js(++ind);}, 50);
+    
+                        oScript.onload = oScript.onreadystatechange = null;
+                        if (oHead && oScript.parentNode)
+                        {
+                            oHead.removeChild(oScript);
+                        }
+                    }
+                }
+    
+                return oHead.insertBefore(oScript, oHead.firstChild);
+            }
+            else
+            {
+                load_js(++ind);
+            }
+        }
+    
+        load_js(0);
+    };
+    
+    BX24.userOption = BX24.appOption = {
+        get:function(){},set:function(){}
+    };
+    
+    BX24.init(function(){
+        BX24.userOption = {
+            get: function(name)
+            {
+                return PARAMS.USER_OPTIONS[name];
+            },
+            set: function(name, value)
+            {
+                PARAMS.USER_OPTIONS[name] = value;
+                sendMessage('setUserOption', {name:name,value:value});
+            }
+        };
+    
+        BX24.appOption = {
+            get: function(name)
+            {
+                return PARAMS.APP_OPTIONS[name];
+            },
+            set: BX24.isAdmin() ? function(name,value,cb)
+            {
+                PARAMS.APP_OPTIONS[name] = value;
+                sendMessage('setAppOption', {name:name,value:value}, cb);
+            } : util.blank
+        };
+    });
+    /*************** private section ***********************/
+    
+    // utility
+    var util = {
+        blank: function(){},
+        init: function()
+        {
+            var f = function(data)
+            {
+                if(!PARAMS.DOMAIN)
+                    PARAMS.DOMAIN = data.DOMAIN;
+                if(!PARAMS.PATH)
+                    PARAMS.PATH = data.PATH;
+                if(!PARAMS.LANG)
+                    PARAMS.LANG = data.LANG;
+                if(!PARAMS.PLACEMENT)
+                    PARAMS.PLACEMENT = data.PLACEMENT;
+    
+                PARAMS.PROTOCOL = data.PROTOCOL;
+                PARAMS.DOMAIN = PARAMS.DOMAIN.replace(/\:(80|443)$/, '');
+    
+                if(!!data.AUTH_ID)
+                {
+                    PARAMS.AUTH_ID = data.AUTH_ID;
+                    PARAMS.REFRESH_ID = data.REFRESH_ID;
+                    PARAMS.AUTH_EXPIRES = (new Date()).valueOf()+data.AUTH_EXPIRES*1000;
+                    PARAMS.IS_ADMIN = !!data.IS_ADMIN;
+                    PARAMS.MEMBER_ID = data.MEMBER_ID||'';
+                }
+    
+                if(!PARAMS.USER_OPTIONS)
+                    PARAMS.USER_OPTIONS = data.USER_OPTIONS;
+    
+                if(!PARAMS.APP_OPTIONS)
+                    PARAMS.APP_OPTIONS = data.APP_OPTIONS;
+    
+                if(!PARAMS.PLACEMENT_OPTIONS)
+                    PARAMS.PLACEMENT_OPTIONS = data.PLACEMENT_OPTIONS;
+    
+                isInit = true;
+    
+                var doInit = function()
+                {
+                    BX24.init = function(fn)
+                    {
+                        util.defer(fn).call(document);
+                    }
+    
+                    if(!data.INSTALL)
+                    {
+                        BX24.installFinish = util.blank;
+                    }
+    
+                    var fn, i = 0;
+                    while (initList && (fn = initList[i++]))
+                    {
+                        BX24.init(fn);
+                    }
+                }
+    
+                if(!!data.FIRST_RUN && installList.length > 0)
+                {
+                    util.install(doInit);
+                }
+                else
+                {
+                    doInit();
+                }
+            }
+    
+            if(!PARAMS.DOMAIN||!PARAMS.LANG||!PARAMS.AUTH_ID)
+            {
+                sendMessage('getInitData', f);
+            }
+            else
+            {
+                f(PARAMS);
+            }
+    
+            util.init = util.blank;
+        },
+    
+        install: function(cb)
+        {
+            var installer = null,
+                installFinish = function()
+                {
+                    util.install(cb);
+                };
+    
+            installer = installList.shift();
+            if(!!installer)
+            {
+                if(util.type.isFunction(installer))
+                {
+                    try
+                    {
+                        BX24.installFinish = installFinish;
+                        installer.call(document); // no defer!
+                    }
+                    catch(e)
+                    {
+                        alert('Installation failed!');
+                        console.log(e);
+                    }
+                }
+                else
+                {
+                    BX24.loadScript(installer, function(){
+                        BX24.installFinish = installFinish;
+                    });
+                }
+            }
+            else
+            {
+                BX24.installFinish = util.install = util.blank;
+                sendMessage('setInstall', {install:true});
+    
+                util.defer(cb).call(document);
+            }
+        },
+    
+        ready: function()
+        {
+            if (document.readyState === "complete")
+            {
+                return util.runReady();
+            }
+    
+            var __readyHandler;
+            if (document.addEventListener)
+            {
+                __readyHandler = function()
+                {
+                    document.removeEventListener("DOMContentLoaded", __readyHandler, false);
+                    util.runReady();
+                }
+                document.addEventListener("DOMContentLoaded", __readyHandler, false);
+                window.addEventListener("load", util.runReady, false);
+            }
+            else if (document.attachEvent)
+            {
+                __readyHandler = function()
+                {
+                    if (document.readyState === "complete")
+                    {
+                        document.detachEvent("onreadystatechange", __readyHandler);
+                        util.runReady();
+                    }
+                }
+                document.attachEvent("onreadystatechange", __readyHandler);
+                window.attachEvent("onload", util.runReady);
+            }
+    
+            util.ready = util.blank;
+    
+            return null;
+        },
+    
+        runReady: function()
+        {
+            if (!isReady)
+            {
+                if (!document.body)
+                    return setTimeout(util.runReady, 15);
+    
+                isReady = true;
+    
+                BX24.ready = function(handler)
+                {
+                    if (util.type.isFunction(handler))
+                    {
+                        util.defer(handler).call(document);
+                    }
+                };
+    
+                if (readyList && readyList.length > 0)
+                {
+                    var fn, i = 0;
+                    while (readyList && (fn = readyList[i++]))
+                    {
+                        BX24.ready(fn);
+                    }
+    
+                    readyList = null;
+                }
+            }
+    
+            return null;
+        },
+    
+        delegate: function (func, thisObject)
+        {
+            if (!func || !thisObject)
+                return func;
+    
+            return function() {
+                var cur = proxyContext;
+                proxyContext = this;
+                var res = func.apply(thisObject, arguments);
+                proxyContext = cur;
+                return res;
+            }
+        },
+    
+        initObjectProxy: function(thisObject)
+        {
+            if (typeof thisObject['__proxy_id_' + proxySalt] == 'undefined')
+            {
+                thisObject['__proxy_id_' + proxySalt] = proxyList.length;
+                proxyList[thisObject['__proxy_id_' + proxySalt]] = {};
+            }
+        },
+    
+        defer: function(fn,t)
+        {
+            return function(){
+                var arg = arguments;
+                setTimeout(function(){fn.apply(this,arg)}, t||10);
+            };
+        },
+    
+        split: function(s,ss)
+        {
+            var r = s.split(ss);
+            return [r[0],r.slice(1).join(ss)];
+        },
+    
+        clone: function(obj, bCopyObj)
+        {
+            var _obj, i, l;
+            if (bCopyObj !== false)
+                bCopyObj = true;
+    
+            if (obj === null)
+                return null;
+    
+            if (util.type.isDomNode(obj))
+            {
+                _obj = obj.cloneNode(bCopyObj);
+            }
+            else if (typeof obj == 'object')
+            {
+                if (util.type.isArray(obj))
+                {
+                    _obj = [];
+                    for (i=0,l=obj.length;i<l;i++)
+                    {
+                        if (typeof obj[i] == "object" && bCopyObj)
+                            _obj[i] = util.clone(obj[i], bCopyObj);
+                        else
+                            _obj[i] = obj[i];
+                    }
+                }
+                else
+                {
+                    _obj =  {};
+                    if (obj.constructor)
+                    {
+                        if (obj.constructor === Date)
+                            _obj = new Date(obj);
+                        else
+                            _obj = new obj.constructor();
+                    }
+    
+                    for (i in obj)
+                    {
+                        if (typeof obj[i] == "object" && bCopyObj)
+                            _obj[i] = util.clone(obj[i], bCopyObj);
+                        else
+                            _obj[i] = obj[i];
+                    }
+                }
+    
+            }
+            else
+            {
+                _obj = obj;
+            }
+    
+            return _obj;
+        },
+    
+        uniqid: function()
+        {
+            var s = '';
+            for (var i = 0; i <32; i++)
+                s += charsList[Math.round(Math.random()*(charsList.length-1))];
+            return s;
+        },
+    
+        // datatype utility
+        type: {
+            isString: function(item) {
+                return item === '' ? true : (item ? (typeof (item) == "string" || item instanceof String) : false);
+            },
+            isNotEmptyString: function(item) {
+                return util.type.isString(item) ? item.length > 0 : false;
+            },
+            isBoolean: function(item) {
+                return item === true || item === false;
+            },
+            isNumber: function(item) {
+                return item === 0 ? true : (item ? (typeof (item) == "number" || item instanceof Number) : false);
+            },
+            isFunction: function(item) {
+                return item === null ? false : (typeof (item) == "function" || item instanceof Function);
+            },
+            isElementNode: function(item) {
+                return item && typeof (item) == "object" && "nodeType" in item && item.nodeType == 1 && item.tagName && item.tagName.toUpperCase() != 'SCRIPT' && item.tagName.toUpperCase() != 'STYLE' && item.tagName.toUpperCase() != 'LINK';
+            },
+            isDomNode: function(item) {
+                return item && typeof (item) == "object" && "nodeType" in item;
+            },
+            isObject: function(item) {
+                return item && (typeof (item) == "object" || item instanceof Object) ? true : false;
+            },
+            isArray: function(item) {
+                return item && Object.prototype.toString.call(item) == "[object Array]";
+            },
+            isDate : function(item) {
+                return item && Object.prototype.toString.call(item) == "[object Date]";
+            }
+        }
+    };
+    
+    // communication with parent frame utility
+    var sendMessage = function(cmd, params, cb)
+    {
+        if(util.type.isFunction(params))
+        {
+            cb = params; params = null;
+        }
+    
+        if (cmd.indexOf(':') >= 0)
+        {
+            parent.postMessage(
+                {
+                    method: cmd,
+                    params: !!params ? params : '',
+                    callback: sendMessage.setCallback(cb),
+                    appSid: PARAMS.APP_SID
+                },
+                'http'+(PARAMS.PROTOCOL?'s':'')+'://' + PARAMS.DOMAIN
+            );
+        }
+        else
+        {
+            /* TODO: delete after rest 22.0.0 */
+            cmd += ':' + (!!params ? JSON.stringify(params) : '')
+                + ':' + sendMessage.setCallback(cb)
+                + (!!PARAMS.APP_SID ? (':' + PARAMS.APP_SID) : '');
+    
+            parent.postMessage(cmd, 'http'+(PARAMS.PROTOCOL?'s':'')+'://' + PARAMS.DOMAIN);
+        }
+    };
+    
+    sendMessage.setCallback = function(cb)
+    {
+        var cbId = '';
+        if(!!cb)
+        {
+            cbId = util.uniqid();
+            sendMessage[cbId] = cb;
+        }
+    
+        return cbId;
+    };
+    
+    sendMessage.runCallback = function(e)
+    {
+        e = e || window.event;
+    
+        if(e.origin != 'http'+(PARAMS.PROTOCOL?'s':'')+'://'+PARAMS.DOMAIN)
+            return;
+    
+        if(!!e.data)
+        {
+            var cmd = util.split(e.data,':',2),
+                args = [];
+    
+            if(!!sendMessage[cmd[0]])
+            {
+                if(!!cmd[1])
+                    args = JSON.parse(cmd[1]);
+    
+                sendMessage[cmd[0]].apply(window, [args]);
+            }
+        }
+    };
+    
+    var ajax = function(config)
+    {
+        RestrictionManager.check(function(){
+            ajax.call(config);
+        });
+    }
+    
+    ajax.call = function(config)
+    {
+        if(!isInit)
+        {
+            BX24.init(function(){
+                ajax.call(config);
+            });
+        }
+        else if(PARAMS.AUTH_EXPIRES < (new Date()).valueOf())
+        {
+            ajax.refreshAuth(config);
+        }
+        else
+        {
+            var xhr = ajax.xhr(),
+                url = 'http'+(PARAMS.PROTOCOL?'s':'')+'://' + PARAMS.DOMAIN + PARAMS.PATH + '/' + ajax.escape(config.method) + '.json';
+    
+            xhr.open('POST', url);
+    
+            var bRequestCompleted = false;
+    
+            // IE fix
+            xhr.onprogress = function(){};
+            xhr.ontimeout = function(){};
+            xhr.timeout = 0;
+    
+            xhr.onload = function()
+            {
+                if (bRequestCompleted)
+                    return;
+    
+                xhr.onload = util.blank;
+    
+                var bSuccess = ajax.isSuccess(xhr);
+    
+                if(bSuccess)
+                {
+                    var data = xhr.responseText;
+    
+                    if(data.length > 0)
+                    {
+                        try{
+                            data = JSON.parse(data);
+                        }catch(e){bSuccess = false;}
+                    }
+                    else
+                    {
+                        data = {result:{}};
+                    }
+                }
+    
+                var s = xhr.status;
+    
+                xhr = null;
+    
+                if(bSuccess)
+                {
+                    if(data.error && data.error == 'expired_token')
+                    {
+                        ajax.refreshAuth(config);
+                    }
+                    else if(!!config.callback && util.type.isFunction(config.callback))
+                    {
+                        var res = new ajaxResult(data, config, s);
+                        config.callback.apply(window, [res]);
+                    }
+                }
+                else
+                {
+                    throw('Query error!');
+                }
+            };
+    
+            xhr.onerror = function()
+            {
+                throw('Query error!');
+            };
+    
+            var query_data = 'auth=' + PARAMS.AUTH_ID;
+    
+            if(typeof config.start != 'undefined')
+            {
+                query_data += '&start=' + parseInt(config.start);
+            }
+    
+            if(!!config.data)
+            {
+                if(!!config.data['start'])
+                {
+                    delete config.data['start'];
+                }
+    
+                ajax.prepareData(config.data, '', function(res){
+                    query_data += '&' + res;
+                    util.defer(xhr.send.bind(xhr))(query_data);
+                });
+            }
+            else
+            {
+                util.defer(xhr.send.bind(xhr))(query_data);
+            }
+    
+            return xhr;
+        }
+    };
+    
+    ajax.batch = function(calls, callback, bHaltOnError)
+    {
+        return ajax({
+            method: 'batch',
+            data: {halt:!!bHaltOnError?1:0, cmd:calls},
+            callback: function(res, config, status){
+                if(!!callback)
+                {
+                    var data = res.data(),
+                        result = util.type.isArray(calls) ? [] : {};
+    
+                    for(var i in calls)
+                    {
+                        if(!!calls[i] && calls.hasOwnProperty(i))
+                        {
+                            if(typeof data.result[i] !== 'undefined' || typeof data.result_error[i] !== 'undefined')
+                            {
+                                if(util.type.isString(calls[i]))
+                                {
+                                    var q = calls[i].split('?');
+                                }
+                                else
+                                {
+                                    q = [
+                                        util.type.isArray(calls[i]) ? calls[i][0] : calls[i].method,
+                                        util.type.isArray(calls[i]) ? calls[i][1] : calls[i].data,
+                                    ];
+                                }
+    
+                                result[i] = new ajaxResult({
+                                    result: typeof data.result[i] !== 'undefined' ? data.result[i] : {},
+                                    error: data.result_error[i]||undefined,
+                                    total: data.result_total[i],
+                                    next: data.result_next[i]
+                                }, {
+                                    method: q[0],
+                                    data:q[1],
+                                    callback: callback
+                                }, res.status);
+                            }
+                        }
+                    }
+    
+                    callback.apply(window, [result]);
+                }
+            }
+        });
+    };
+    
+    ajax.refreshAuth = function(config)
+    {
+        BX24.refreshAuth(function(){
+            ajax(config)
+        });
+    };
+    
+    ajax.xhr = function()
+    {
+        if(!!window.XDomainRequest)
+            return new XDomainRequest();
+        else
+            return new XMLHttpRequest();
+    };
+    
+    ajax.escape = function(str)
+    {
+        return encodeURIComponent(str);
+    };
+    
+    ajax.prepareData = function(arData, prefix, callback)
+    {
+        var data = '', objects = [];
+        if (util.type.isString(arData) || arData == null)
+        {
+            callback.call(document, arData||'');
+        }
+        else
+        {
+            for(var i in arData)
+            {
+                if (!arData.hasOwnProperty(i))
+                {
+                    continue;
+                }
+    
+                var name = ajax.escape(i);
+    
+                if(prefix)
+                    name = prefix + '[' + name + ']';
+    
+                if(typeof arData[i] == 'object')
+                {
+                    objects.push([name,arData[i]]);
+                }
+                else
+                {
+                    if (data.length > 0)
+                    {
+                        data += '&';
+                    }
+    
+                    data += name + '=' + ajax.escape(arData[i])
+                }
+            }
+    
+            var cnt = objects.length;
+            if(cnt > 0)
+            {
+                var cb = function(str)
+                {
+                    data += (!!str ? '&' : '') + str;
+                    if(--cnt <= 0)
+                    {
+                        callback.call(document, data)
+                    }
+                }
+    
+                var cnt1 = cnt;
+                for(var i = 0; i < cnt1; i++)
+                {
+                    if(util.type.isDomNode(objects[i][1]))
+                    {
+                        if(objects[i][1].tagName.toUpperCase() == 'INPUT' && objects[i][1].type == 'file')
+                        {
+                            if(fileReader.canUse())
+                            {
+                                fileReader(objects[i][1], (function(name){
+                                    return function(result){
+                                        if(util.type.isArray(result)&&result.length>0)
+                                        {
+                                            cb(name + '[0]=' + ajax.escape(result[0]) + '&' + name + '[1]=' + ajax.escape(result[1]));
+                                        }
+                                        else
+                                        {
+                                            cb(name+'=');
+                                        }
+                                    }
+                                })(objects[i][0]));
+                            }
+                        }
+                        else if(typeof objects[i][1].value != 'undefined')
+                        {
+                            cb(objects[i][0] + '=' + ajax.escape(objects[i][1].value));
+                        }
+                        else
+                        {
+                            cb('');
+                        }
+                    }
+                    else if(util.type.isDate(objects[i][1]))
+                    {
+                        cb(objects[i][0] + '=' + ajax.escape(objects[i][1].toJSON()));
+                    }
+                    else if(util.type.isArray(objects[i][1]) && objects[i][1].length <= 0)
+                    {
+                        cb(objects[i][0] + '=');
+                    }
+                    else
+                    {
+                        ajax.prepareData(objects[i][1], objects[i][0], cb);
+                    }
+                }
+            }
+            else
+            {
+                callback.call(document, data)
+            }
+        }
+    };
+    
+    ajax.isSuccess = function(xhr)
+    {
+        return typeof xhr.status == 'undefined' || (xhr.status >= 200 && xhr.status < 300) || xhr.status === 304 || xhr.status >= 400 && xhr.status < 500 || xhr.status === 1223 || xhr.status === 0;
+    };
+    
+    var ajaxResult = function(answer, query, status)
+    {
+        this.answer = answer;
+        this.query = util.clone(query);
+        this.status = status;
+    
+        if(typeof this.answer.next != 'undefined')
+        {
+            this.answer.next = parseInt(this.answer.next);
+        }
+    
+        if(typeof this.answer.error != 'undefined')
+        {
+            this.answer.ex = new ajaxError(this.status, typeof this.answer.error == 'string' ? this.answer : this.answer.error)
+        }
+    };
+    
+    ajaxResult.prototype.data = function()
+    {
+        return this.answer.result;
+    };
+    
+    ajaxResult.prototype.error = function()
+    {
+        return this.answer.ex;
+    };
+    
+    ajaxResult.prototype.error_description = function()
+    {
+        return this.answer.error_description;
+    };
+    
+    ajaxResult.prototype.more = function()
+    {
+        return !isNaN(this.answer.next);
+    };
+    
+    ajaxResult.prototype.total = function()
+    {
+        return parseInt(this.answer.total);
+    };
+    
+    ajaxResult.prototype.next = function(cb)
+    {
+        if(this.more())
+        {
+            this.query.start = this.answer.next;
+    
+            if(!!cb && util.type.isFunction(cb))
+            {
+                this.query.callback = cb;
+            }
+    
+            return ajax(this.query);
+        }
+    
+        return false;
+    };
+    
+    var ajaxError = function(status, ex)
+    {
+        this.status = status;
+        this.ex = ex;
+    };
+    
+    ajaxError.prototype.getError = function()
+    {
+        return this.ex;
+    };
+    
+    ajaxError.prototype.getStatus = function()
+    {
+        return this.status;
+    };
+    
+    ajaxError.prototype.toString = function()
+    {
+        return this.ex.error + (
+            !!this.ex.error_description
+                ? ': ' + this.ex.error_description
+                : ''
+            ) + ' ('+this.status+')';
+    };
+    
+    
+    var fileReader = function(fileInput, cb)
+    {
+        if(fileReader.canUse())
+        {
+            var files = fileInput.files,
+                len = 0,
+                result = fileInput.multiple ? [] : null;
+    
+            for (var i = 0, f; f = files[i]; i++)
+            {
+                var reader = new window.FileReader();
+    
+                reader.BXFILENAME = files[i].name;
+    
+                reader.onload = function(e){
+                    e = e||window.event;
+    
+                    var res = [this.BXFILENAME,btoa(e.target.result)];
+    
+                    if(result === null)
+                        result = res;
+                    else
+                        result.push(res);
+    
+                    if(--len <= 0)
+                    {
+                        cb(result);
+                    }
+                };
+    
+                reader.readAsBinaryString(f);
+            }
+            len = i;
+            if(len <= 0)
+            {
+                cb(result);
+            }
+        }
+    };
+    
+    fileReader.canUse = function()
+    {
+        return !!window.FileReader;
+    };
+    
+    var RestrictionManager = function()
+    {
+        var _ = this;
+    
+        this.param = {
+            SLEEP: 1000,
+            ALLOWED_SPEED: 0.002,
+            ALLOWED_AMOUNT: 90
+        };
+    
+        this.storage = {
+            lastDecrement: 0,
+            currentAmount: 0
+        };
+    
+        this.wait = function(callback)
+        {
+            return util.defer(function()
+            {
+                return _.check(callback);
+            }, this.param.SLEEP);
+        };
+    };
+    
+    RestrictionManager.prototype.check = function(callback)
+    {
+        this.decrementStorage();
+    
+        if(!this.checkStorage())
+        {
+            this.wait(callback)();
+        }
+        else
+        {
+            this.incrementStorage();
+    
+            this.run(callback);
+        }
+    };
+    
+    RestrictionManager.prototype.run = function(callback)
+    {
+        callback();
+    }
+    
+    RestrictionManager.prototype.decrementStorage = function()
+    {
+        if(this.storage.lastDecrement > 0)
+        {
+            this.storage.currentAmount -= ((new Date()).valueOf() - this.storage.lastDecrement) * this.param.ALLOWED_SPEED;
+    
+            if(this.storage.currentAmount < 0)
+            {
+                this.storage.currentAmount = 0;
+            }
+        }
+    
+        this.storage.lastDecrement = (new Date()).valueOf();
+    };
+    
+    RestrictionManager.prototype.checkStorage = function()
+    {
+        return this.storage.currentAmount < this.param.ALLOWED_AMOUNT;
+    };
+    
+    RestrictionManager.prototype.incrementStorage = function()
+    {
+        this.storage.currentAmount++;
+    };
+    
+    /***************** exec ********************************/
+    
+    // AUTH_ID can also be set via GET, but it's not recommended due to security reasons
+    
+    var PARAMS = {
+        DOMAIN: '',
+        PROTOCOL: 1,
+        APP_SID: false,
+        PATH: '',
+        LANG: '',
+        AUTH_ID: '',
+        REFRESH_ID: null,
+        MEMBER_ID: null,
+        PLACEMENT: null,
+        IS_ADMIN: false,
+        AUTH_EXPIRES: 0,
+        USER_OPTIONS: null,
+        APP_OPTIONS: null,
+        PLACEMENT_OPTIONS: null
+    };
+    
+    if(!!window.name)
+    {
+        var q = window.name.split('|');
+        PARAMS.DOMAIN = q[0].replace(/\:(80|443)$/, '');
+        PARAMS.PROTOCOL = parseInt(q[1])||0;
+        PARAMS.APP_SID = q[2];
+    }
+    
+    if(!PARAMS.DOMAIN||!PARAMS.APP_SID)
+    {
+        BX24 = null;
+        throw new Error('Unable to initialize Bitrix24 JS library!');
+    }
+    
+    /* bindings */
+    BX24.bind(window, 'message', sendMessage.runCallback);
+    
+    util.ready();
+    util.init();
+    
+    RestrictionManager = new RestrictionManager();
+    
+    })();
