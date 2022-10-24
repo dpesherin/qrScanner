@@ -25,10 +25,11 @@ app.set('view engine', 'ejs')
 
 
 app.all('/', (req, res)=>{
-    res.render('index')
+    console.log(req)
+    return res.render('index')
 })
 app.all('/scan', (req, res)=>{
-    res.render('scan')
+    return res.render('scan')
 })
 
 app.post('/generate', async(req, res)=>{
