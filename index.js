@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const http = require('http')
-// const sqlite = require('sqlite3')
+const sqlite = require('sqlite3')
 const path = require('path')
 const fileUpload = require('express-fileupload')
 // const https = require('https')
@@ -14,7 +14,7 @@ const HttpServer = http.createServer(app)
 const qr = require('qr-image')
 const config = require('config')
 const fs = require('fs/promises')
-// const db = new sqlite.Database('./scanner.db')
+const db = new sqlite.Database('./scanner.db')
 const unoconv = require('awesome-unoconv');
 
 app.use(fileUpload({}))
