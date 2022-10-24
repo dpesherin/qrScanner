@@ -49,5 +49,5 @@ import QrScanner from "./core/qr-scanner.min.js";
     }
 
     BX24.init(()=>{
-        console.log(BX24.isAdmin())
+        alert(BX24.isAdmin())
     })
