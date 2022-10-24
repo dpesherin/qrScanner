@@ -52,5 +52,4 @@ import QrScanner from "./core/qr-scanner.min.js";
     document.getElementById('send').addEventListener("click", ()=>{
         alert('Sending')
         document.getElementById('wrapper').style.display = 'flex'
-        setInterval(document.getElementById('wrapper').style.display = 'none', 6000)
     })
