@@ -29,6 +29,8 @@ import QrScanner from "./core/qr-scanner.min.js";
         highlightCodeOutline: true,
     });
 
+    scanner.start()
+
     $('#start').click(()=>{
         scanner.start()
     })
