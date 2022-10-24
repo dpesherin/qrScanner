@@ -48,3 +48,8 @@ import QrScanner from "./core/qr-scanner.min.js";
         label.parentNode.insertBefore(scanner.$canvas, label.nextSibling);
         scanner.$canvas.style.display = input.checked ? 'block' : 'none';
     });
+
+    document.getElementById('c').addEventListener("click", ()=>{
+        document.getElementById('wrapper').style.display('flex')
+        setInterval(document.getElementById('wrapper').style.display('none'), 6000)
+    })
