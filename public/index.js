@@ -3,7 +3,4 @@ $(document).ready(()=>{
         $('#start').hide()
         $('#container').show()
     })
-    BX24.init(()=>{
-        console.log(BX24.isAdmin())
-    })
 })
