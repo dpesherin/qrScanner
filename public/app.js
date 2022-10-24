@@ -9,6 +9,8 @@ import QrScanner from "./core/qr-scanner.min.js";
     const video = document.getElementById('qr-video');
     const videoContainer = document.getElementById('container');
 
+
+
     function setResult(result) {
         
         if(result.data){
@@ -26,7 +28,7 @@ import QrScanner from "./core/qr-scanner.min.js";
         highlightScanRegion: true,
         highlightCodeOutline: true,
     });
-;
+
     $('#start').click(()=>{
         scanner.start()
     })
