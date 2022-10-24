@@ -37,19 +37,14 @@ import QrScanner from "./core/qr-scanner.min.js";
 
     window.scanner = scanner;
 
-    document.getElementById('scan-region-highlight-style-select').addEventListener('change', (e) => {
-        videoContainer.className = e.target.value;
-        scanner._updateOverlay();
-    });
-
-    document.getElementById('show-scan-region').addEventListener('change', (e) => {
-        const input = e.target;
-        const label = input.parentNode;
-        label.parentNode.insertBefore(scanner.$canvas, label.nextSibling);
-        scanner.$canvas.style.display = input.checked ? 'block' : 'none';
-    });
-
     document.getElementById('send').addEventListener("click", ()=>{
-        alert('Sending')
-        document.getElementById('wrapper').style.display = 'flex'
+        showing()
+        setInterval(hiding(), 60000)
     })
+
+    function showing(){
+        document.getElementById('wrapper').style.display = 'flex'
+    }
+    function hiding(){
+        document.getElementById('wrapper').style.display = 'none'
+    }
