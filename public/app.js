@@ -31,7 +31,7 @@ import QrScanner from "./core/qr-scanner.min.js";
 
     scanner.start()
 
-    $('#start').click(()=>{
+    document.getElementById('s').addEventListener('click', ()=>{
         scanner.start()
     })
 
