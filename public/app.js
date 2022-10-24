@@ -47,7 +47,3 @@ import QrScanner from "./core/qr-scanner.min.js";
     function hiding(){
         document.getElementById('wrapper').style.display = 'none'
     }
-
-    BX24.init(()=>{
-        alert(BX24.isAdmin())
-    })
