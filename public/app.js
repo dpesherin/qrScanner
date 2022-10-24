@@ -19,7 +19,7 @@ try {
                         }else{
                             let dat = res.data()[0]
                             let conf = confirm("Вы отсканировали элемент с типом:"+ dat.PROPERTY_408)
-                            console.log(res.data()[0])
+                            document.writeln(res.data()[0])
                             if(!conf){
                                 scanner.start()
                             }
