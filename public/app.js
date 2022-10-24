@@ -13,18 +13,30 @@ try {
                 let data = result.data
                 let arData = data.split("_")
                 if(arData[0] == "92"){
-                    BX24.callMethod('lists.element.get', {"IBLOCK_TYPE_ID": "lists", "IBLOCK_ID": 92, "ELEMENT_ID": arData[1]}, (res)=>{
+                    BX24.callMethod('lists.field.get', {"IBLOCK_TYPE_ID": "lists", "IBLOCK_ID": 92}, (res)=>{
                         if(res.error()){
                             alert("Error: " + res.error());
                         }else{
                             let dat = res.data()[0]
-                            let conf = confirm("Вы отсканировали элемент с типом:"+ dat.PROPERTY_408)
+                            //let conf = confirm("Вы отсканировали элемент с типом:")
                             document.writeln(JSON.stringify(res.data()))
                             if(!conf){
                                 scanner.start()
                             }
                         }
                     })
+                    // BX24.callMethod('lists.element.get', {"IBLOCK_TYPE_ID": "lists", "IBLOCK_ID": 92, "ELEMENT_ID": arData[1]}, (res)=>{
+                    //     if(res.error()){
+                    //         alert("Error: " + res.error());
+                    //     }else{
+                    //         let dat = res.data()[0]
+                    //         let conf = confirm("Вы отсканировали элемент с типом:"+ dat.PROPERTY_408)
+                    //         document.writeln(JSON.stringify(res.data()))
+                    //         if(!conf){
+                    //             scanner.start()
+                    //         }
+                    //     }
+                    // })
                 }else{
                     alert('Приложение не может работать с этими данными')
                 }
