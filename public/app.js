@@ -39,7 +39,6 @@ import QrScanner from "./core/qr-scanner.min.js";
 
     document.getElementById('send').addEventListener("click", ()=>{
         showing()
-        setInterval(hiding(), 60000)
     })
 
     function showing(){
