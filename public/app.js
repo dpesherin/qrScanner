@@ -18,7 +18,7 @@ try {
                             alert("Error: " + res.error());
                         }else{
                             let dat = res.data()[0]
-                            let conf = confirm("Вы отсканировали элемент с id:"+ dat.ID)
+                            let conf = confirm("Вы отсканировали элемент с типом:"+ dat.PROPERTY_408)
                             if(!conf){
                                 scanner.start()
                             }
