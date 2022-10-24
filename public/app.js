@@ -18,8 +18,8 @@ try {
                             alert("Error: " + res.error());
                         }else{
                             let dat = res.data()[0]
-                            let conf = confirm("Вы отсканировали элемент с типом:"+ dat.PROPERTY_408.218203)
-                            document.writeln(JSON.stringify(res.data()[0]))
+                            let conf = confirm("Вы отсканировали элемент с типом:"+ dat.PROPERTY_408)
+                            document.writeln(JSON.stringify(res.data()))
                             if(!conf){
                                 scanner.start()
                             }
