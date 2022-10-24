@@ -9,11 +9,22 @@ try {
         function setResult(result) {
             
             if(result.data){
-                // let data = JSON.parse(result.data)
-                // let text = `Договор: ${data.contract},\nТип документа: ${data.type},\nОтветственный: ${data.employer},\nКонтрагент: ${data.contragent}\nПодтверждаете документ?`
-                let conf = confirm(result.data)
-                if(conf){
-                    scanner.stop()
+                let data = result.data
+                let arData = data.split("_")
+                if(arData[0] == "92"){
+                    BX24.callMethod('lists.element.get', {"IBLOCK_TYPE_ID": "lists", "IBLOCK_ID": 92, "ELEMENT_ID": arData[1]}, (res)=>{
+                        if(res.error()){
+                            alert("Error: " + res.error());
+                        }else{
+                            let dat = res.data()[0]
+                            let conf = confirm(dat)
+                            if(conf){
+                                scanner.stop()
+                            }
+                        }
+                    })
+                }else{
+                    alert('Приложение не может работать с этими данными')
                 }
                 
             }
