@@ -9,6 +9,7 @@ try {
         function setResult(result) {
             
             if(result.data){
+                scanner.stop()
                 let data = result.data
                 let arData = data.split("_")
                 if(arData[0] == "92"){
@@ -18,8 +19,8 @@ try {
                         }else{
                             let dat = res.data()[0]
                             let conf = confirm("Вы отсканировали элемент с id:"+ dat.ID)
-                            if(conf){
-                                scanner.stop()
+                            if(!conf){
+                                scanner.start()
                             }
                         }
                     })
