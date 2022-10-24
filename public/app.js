@@ -16,7 +16,6 @@ import QrScanner from "./core/qr-scanner.min.js";
             // let text = `Договор: ${data.contract},\nТип документа: ${data.type},\nОтветственный: ${data.employer},\nКонтрагент: ${data.contragent}\nПодтверждаете документ?`
             let conf = confirm(result.data)
             if(conf){
-                $('#area').hide()
                 scanner.stop()
             }
             
@@ -28,9 +27,9 @@ import QrScanner from "./core/qr-scanner.min.js";
         highlightCodeOutline: true,
     });
 ;
-
-    scanner.start()
-
+    $('#start').click(()=>{
+        scanner.start()
+    })
 
     window.scanner = scanner;
 
