@@ -1,4 +1,3 @@
-import { response } from "express";
 import QrScanner from "./core/qr-scanner.min.js";
 try {
     BX24.init(()=>{
