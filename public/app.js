@@ -18,7 +18,7 @@ try {
                         if(res.error()){
                             alert("Error: " + res.error());
                         }else{
-                            let dat = res.data()[0]
+                            let dat = res.data()
                             document.writeln(dat)
                         }
                     })
