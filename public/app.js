@@ -116,7 +116,7 @@ try {
                         <h3>Выберите менеждера, который передал вам пакет документов</h3>
                         <select id="userList">
                         </select>
-                        <button class="btn btn-primary" id="submit" onclick="getUser()">Выбрать</button>
+                        <button class="btn btn-primary" id="submit">Выбрать</button>
                     </div>
                 `)
                 users.forEach(el => {
