@@ -60,8 +60,8 @@ try {
                                                             `<div class="item-wrapper">
                                                                 <img class="mark" src="./img/mark.svg">
                                                                 <div class="item">
-                                                                    <span class="info">${value}</span>
-                                                                    <p class="title">${dat.item.title}</p>
+                                                                    <span class="info">${dat.item.title}</span>
+                                                                    <p class="title">${value}</p>
                                                                 </div>
                                                             </div>`
                                                         )

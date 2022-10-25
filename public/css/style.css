@@ -97,8 +97,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 30vh;
-    width: 80vw;
 }
 #submit{
     margin-top: 15px;
