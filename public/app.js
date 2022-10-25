@@ -29,6 +29,7 @@ try {
                                     alert("Error: " + res.error());
                                 }else{
                                     let dat = res.data()[0]
+                                    console.log(dat)
                                     let valID = getProperty(dat.PROPERTY_408)
                                     let value = typelist[valID]
                                     let contractID = getProperty(dat.PROPERTY_633)
