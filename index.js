@@ -25,7 +25,6 @@ app.set('view engine', 'ejs')
 
 
 app.all('/', (req, res)=>{
-    console.log(req)
     return res.render('index')
 })
 app.all('/scan', (req, res)=>{
@@ -50,6 +49,7 @@ app.post('/generate', async(req, res)=>{
 })
 
 app.post('/add', (req, res)=>{
+    console.log(req)
     const el_id = req.body.el_id
     const contract = req.body.contract
     const user = req.body.user
