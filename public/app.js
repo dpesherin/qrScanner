@@ -178,6 +178,7 @@ try {
                                
                             }); 
                             hiding()
+                            $('#userSelector').remove()
                         }else{
                             hiding()
                             alert("Во время выполнения произошла ошибка")
