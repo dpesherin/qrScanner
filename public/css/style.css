@@ -88,3 +88,8 @@ body{
     width: 25px;
     margin-right: 5px;
 }
+.popup-window{
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+}
