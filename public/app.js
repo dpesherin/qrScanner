@@ -1,6 +1,6 @@
 import QrScanner from "./core/qr-scanner.min.js";
 try {
-    BX24.init(()=>{
+    BX24.init(async ()=>{
         var userID
         const video = document.getElementById('qr-video');
         const videoContainer = document.getElementById('container');
@@ -41,10 +41,6 @@ try {
                                             let conf = confirm("Добавить запись?\nТип:"+ value+"\nДоговор: "+ dat.item.title)
                                             if(conf){
                                                 showing()
-                                                BX24.callMethod('user.current', {}, function(res){
-                                                    userID = res.data().ID
-                                                    console.log(userID)
-                                                })
                                                 fetch('/add', {
                                                     method: 'post',
                                                     headers: {
@@ -58,7 +54,7 @@ try {
                                                     })
                                                 }).then(async (response)=>{
                                                     hiding()
-                                                    var resData = await response.json()
+                                                    let resData = await response.json()
                                                     if(resData.status == "ok"){
                                                         $('#data').append(
                                                             `<div class="item-wrapper">
@@ -100,14 +96,40 @@ try {
 
         scanner.start()
 
+        BX24.callMethod('user.current', {}, async function(res){
+            userID = res.data().ID
+        })
+
         document.getElementById('s').addEventListener('click', ()=>{
             scanner.start()
         })
 
         window.scanner = scanner;
 
-        document.getElementById('send').addEventListener("click", ()=>{
-            showing()
+        document.getElementById('send').addEventListener("click", async ()=>{
+            BX24.selectUser((user)=>{
+                var getUser = user.id
+                console.log(user)
+            })
+            // showing()
+            // fetch('/get', {
+            //     method: 'post',
+            //     headers: {
+            //         'Accept': 'application/json',
+            //         'Content-Type': 'application/json'
+            //     },
+            //     body:JSON.stringify({
+            //         user: userID
+            //     })
+            // }).then(async (response)=>{
+            //     let resData = await response.json()
+            //     if(resData.status == "ok"){
+            //         console.log(resData.data)
+            //     }else{
+            //         hiding()
+            //         alert("Во время выполнения произошла ошибка")
+            //     }
+            // })
         })
 
         function showing(){
