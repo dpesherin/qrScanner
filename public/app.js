@@ -155,14 +155,18 @@ try {
             return pstr.split('"')[3]
         }
 
-        function GetUser(){
-            alert($('#userList').val())
-        }
+        // function GetUser(){
+        //     alert($('#userList').val())
+        // }
 
 
     })
 } catch (error) {
     alert("Вы не можете использовать это приложение вне Битрикс24")
     window.location.href = 'https://google.com'
+}
+
+function GetUser(){
+    alert($('#userList').val())
 }
     
