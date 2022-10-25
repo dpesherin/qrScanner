@@ -2,10 +2,10 @@ import QrScanner from "./core/qr-scanner.min.js";
 try {
     BX24.init(()=>{
         var userID
-        BX24.callMethod('user.current', {}, function(res){
-            alert('Привет, ' + res.data().NAME + '! ID= '+ res.data().ID);
-            userID = res.data().ID
-        })
+        // BX24.callMethod('user.current', {}, function(res){
+        //     alert('Привет, ' + res.data().NAME + '! ID= '+ res.data().ID);
+        //     userID = res.data().ID
+        // })
         const video = document.getElementById('qr-video');
         const videoContainer = document.getElementById('container');
         var typelist
