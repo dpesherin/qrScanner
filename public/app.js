@@ -108,10 +108,9 @@ try {
 
         document.getElementById('send').addEventListener("click", async ()=>{
             scanner.stop()
-            BX24.selectUser((user)=>{
-                var getUser = user.id
-                console.log(user)
-            })
+            BX24.callMethod('user.get', {"UF_DEPARTMENT": 130}, (res)=>{
+                console.log(res.data())
+            });
             // showing()
             // fetch('/get', {
             //     method: 'post',
