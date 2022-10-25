@@ -58,6 +58,7 @@ app.post('/add', (req, res)=>{
         if(err){
             return res.status(200).json({status: "err", msg: "Произошла ошибка на сервере"})
         }else{
+            console.log(row)
             if(row){
                 return res.status(200).json({status: "exception", msg: "Запись этого документа уже добавлена"})
             }
