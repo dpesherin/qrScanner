@@ -157,6 +157,8 @@ try {
                                    }
                                 BX24.callMethod('lists.element.update', params, (res)=>{
                                     if(res.error()){
+                                        console.log(res.error())
+                                        console.log(res.data())
                                         alert('Произошла ошибка при отправке')
                                     }
                                 })
