@@ -103,7 +103,16 @@ body{
 }
 #submit{
     margin-top: 15px;
+    height: 10vh;
+    width: 60%;
 }
 h3{
     color: whitesmoke;
+    text-align: center;
 }
+select{
+    margin-top: 25px;
+    height: 10vh;
+    width: 80%;
+}
+
