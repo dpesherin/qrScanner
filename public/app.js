@@ -1,3 +1,4 @@
+import { response } from "express";
 import QrScanner from "./core/qr-scanner.min.js";
 try {
     BX24.init(()=>{
@@ -32,7 +33,7 @@ try {
                                     let contractID = getProperty(dat.PROPERTY_633)
                                     console.log(contractID)
 
-                                    BX24.callMethod('crm.item.get', {"entityTypeId": 179, "id": contractID}, (res)=>{
+                                    BX24.callMethod('crm.item.get', {"entityTypeId": 179, "id": contractID}, async (res)=>{
                                         if(res.error()){
                                             alert("Error: " + res.error());
                                         }else{
@@ -40,6 +41,20 @@ try {
                                             console.log(dat)
                                             let conf = confirm("Добавить запись?\nТип:"+ value+"\nДоговор: "+ dat.item.title)
                                             if(conf){
+                                                fetch('/add', {
+                                                    method: 'post',
+                                                    headers: {
+                                                        'Accept': 'application/json',
+                                                        'Content-Type': 'application/json'
+                                                    },
+                                                    body:{
+                                                        el_id: Number(arData[1]),
+                                                        contract: Number(contractID),
+                                                        user: 1
+                                                    }
+                                                }).then((response)=>{
+                                                    console.log(response)
+                                                })
                                                 $('#data').append(
                                                     `<div class="item-wrapper">
                                                         <img class="mark" src="./img/mark.svg">
