@@ -1,10 +1,6 @@
 import QrScanner from "./core/qr-scanner.min.js";
 try {
     BX24.init(async ()=>{
-
-        function getUser(){
-            return alert($('#userList').val())
-        }
         var userID
         const video = document.getElementById('qr-video');
         const videoContainer = document.getElementById('container');
@@ -121,6 +117,11 @@ try {
                         </select>
                         <button class="btn btn-primary" id="submit" onclick="getUser()">Выбрать</button>
                     </div>
+                    <script>
+                        function getUser(){
+                            return alert($('#userList').val())
+                        }
+                    </script>
                 `)
                 users.forEach(el => {
                     $('#userList').append(`<option value="${el.ID}">${el.NAME} ${el.LAST_NAME}</option>`)
