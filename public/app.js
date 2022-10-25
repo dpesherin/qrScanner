@@ -108,7 +108,7 @@ try {
 
         document.getElementById('send').addEventListener("click", async ()=>{
             scanner.stop()
-            BX24.callMethod('user.get', {"UF_DEPARTMENT": 130}, (res)=>{
+            BX24.callMethod('user.get', {"UF_DEPARTMENT": 130, "ACTIVE": true}, (res)=>{
                 console.log(res.data())
             });
             // showing()
