@@ -40,7 +40,7 @@ try {
                                             console.log(dat)
                                             let conf = confirm("Добавить запись?\nТип:"+ value+"\nДоговор: "+ dat.item.title)
                                             if(conf){
-                                                fetch('https://screenctrl.herokuapp.com/add', {
+                                                fetch('/add', {
                                                     method: 'post',
                                                     headers: {
                                                         'Accept': 'application/json',
