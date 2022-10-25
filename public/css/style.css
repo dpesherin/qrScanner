@@ -69,6 +69,7 @@ body{
     padding: 3px;
     justify-content: flex-start;
     align-items: center;
+    border: 1px solid rgba(26, 26, 26, 0.7);
 }
 .info{
     color: lightslategray;
@@ -77,5 +78,5 @@ body{
 .mark{
     height: 25px;
     width: 25px;
-    margin-right: 3px;
+    margin-right: 5px;
 }
