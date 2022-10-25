@@ -104,4 +104,13 @@ body{
     transform: translate(-50%, -50%);
     background-color: #fff;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 40vw;
+}
+#submit{
+    margin-top: 15px;
 }
