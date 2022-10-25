@@ -87,16 +87,6 @@ body{
     width: 25px;
     margin-right: 5px;
 }
-.popup-window{
-    left: 0% !important;
-    top: 25% !important;
-    transform: translate(-50%, -50%) !important;
-}
-#app-user-popup-0{
-    left: 50% !important;
-    top: 50% !important;
-    transform: translate(-50%, -50%) !important;
-}
 #userSelector{
     background-color: #fff;
     padding: 10px;
@@ -110,7 +100,7 @@ body{
 #submit{
     margin-top: 15px;
 }
-#form-wrapper{
+#form-wrap{
     height: 100vh;
     width: 100vw;
     background-color:rgba(0,0,0,0.8);

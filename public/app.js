@@ -111,7 +111,7 @@ try {
             BX24.callMethod('user.get', {"UF_DEPARTMENT": 130, "ACTIVE": true}, (res)=>{
                 let users = res.data()
                 $('body').append(`
-                <div id="form-wrapper">
+                <div id="form-wrap">
                     <form id="userSelector">
                         <select id="userList">
                         </select>
