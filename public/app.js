@@ -162,7 +162,7 @@ try {
                                                 'PROPERTY_607': dat.PROPERTY_607,
                                                 'PROPERTY_633': dat.PROPERTY_633,
                                                 'PROPERTY_706': {'n0': userID},
-                                                'PROPERTY_707': {'n0': Date()},
+                                                'PROPERTY_707': {'n0': new Date},
                                                 'PROPERTY_708' : {'n0': sender}
                                             }
                                            }
