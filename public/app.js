@@ -107,6 +107,7 @@ try {
         window.scanner = scanner;
 
         document.getElementById('send').addEventListener("click", async ()=>{
+            scanner.stop()
             BX24.selectUser((user)=>{
                 var getUser = user.id
                 console.log(user)
