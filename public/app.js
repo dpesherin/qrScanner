@@ -145,24 +145,37 @@ try {
                                 window.location.href = '/'
                             }
                             dbData.forEach(el => {
-                                el.el_id
-                                var params = {
-                                    'IBLOCK_TYPE_ID': 'lists',
-                                    'IBLOCK_ID': '92',
-                                    'ELEMENT_ID': el.el_id,
-                                    'FIELDS': {
-                                        'PROPERTY_706': {'n0': userID},
-                                        'PROPERTY_707': {'n0': Date()}, // либо без id 'PROPERTY_121': {'n0': ['50', 'n1582']}
-                                        'PROPERTY_708' : {'n0': sender}
-                                    }
-                                   }
-                                BX24.callMethod('lists.element.update', params, (res)=>{
+                                BX24.callMethod('lists.element.get', {"IBLOCK_TYPE_ID": "lists", "IBLOCK_ID": 92, "ELEMENT_ID": el.el_id}, (res)=>{
                                     if(res.error()){
-                                        console.log(res.error())
-                                        console.log(res.data())
-                                        alert('Произошла ошибка при отправке')
+                                        alert("Error: " + res.error());
+                                    }else{
+                                        let dat = res.data()[0]
+                                        var params = {
+                                            'IBLOCK_TYPE_ID': 'lists',
+                                            'IBLOCK_ID': '92',
+                                            'ELEMENT_ID': el.el_id,
+                                            'FIELDS': {
+                                                'NAME': dat.NAME,
+                                                'PROPERTY_407': dat.PROPERTY_407,
+                                                'PROPERTY_408': dat.PROPERTY_408,
+                                                'PROPERTY_411': dat.PROPERTY_411,
+                                                'PROPERTY_607': dat.PROPERTY_607,
+                                                'PROPERTY_633': dat.PROPERTY_633,
+                                                'PROPERTY_706': {'n0': userID},
+                                                'PROPERTY_707': {'n0': Date()},
+                                                'PROPERTY_708' : {'n0': sender}
+                                            }
+                                           }
+                                        BX24.callMethod('lists.element.update', params, (res)=>{
+                                            if(res.error()){
+                                                console.log(res.error())
+                                                console.log(res.data())
+                                                alert('Произошла ошибка при отправке')
+                                            }
+                                        })
                                     }
                                 })
+                               
                             }); 
                             hiding()
                         }else{
