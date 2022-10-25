@@ -51,8 +51,9 @@ try {
                                                         contract: Number(contractID),
                                                         user: 1
                                                     })
-                                                }).then((response)=>{
-                                                    console.log(response.status)
+                                                }).then(async (response)=>{
+                                                    var resData = await response.json()
+                                                    console.log(resData)
                                                 })
                                                 $('#data').append(
                                                     `<div class="item-wrapper">
