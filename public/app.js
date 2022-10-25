@@ -109,7 +109,17 @@ try {
         document.getElementById('send').addEventListener("click", async ()=>{
             scanner.stop()
             BX24.callMethod('user.get', {"UF_DEPARTMENT": 130, "ACTIVE": true}, (res)=>{
-                console.log(res.data())
+                let users = res.data()
+                $('body').append(`
+                    <form id="userSelector">
+                        <select id="userList">
+                        </select>
+                        <button class="btn btn-primary" id="submit" onClick="GetUser(e)">Выбрать</button>
+                    </form>
+                `)
+                users.forEach(el => {
+                    $('#userList').append(`<option value="${el.ID}">${el.NAME} ${el.LAST_NAME}</option>`)
+                });
             });
             // showing()
             // fetch('/get', {
@@ -142,6 +152,11 @@ try {
         function getProperty(prop){
             let pstr = JSON.stringify(prop)
             return pstr.split('"')[3]
+        }
+
+        function GetUser(e){
+            e.preventDefault()
+            alert('Click')
         }
 
 
