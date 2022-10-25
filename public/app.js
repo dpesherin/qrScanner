@@ -52,7 +52,7 @@ try {
                                                         user: 1
                                                     })
                                                 }).then((response)=>{
-                                                    console.log(response)
+                                                    console.log(response.status)
                                                 })
                                                 $('#data').append(
                                                     `<div class="item-wrapper">
