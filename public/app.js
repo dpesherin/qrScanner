@@ -23,7 +23,6 @@ try {
                         }else{
                             let dat  = res.data()
                             typelist = dat.L.DISPLAY_VALUES_FORM
-                            console.log(typelist)
 
                             BX24.callMethod('lists.element.get', {"IBLOCK_TYPE_ID": "lists", "IBLOCK_ID": 92, "ELEMENT_ID": arData[1]}, (res)=>{
                                 if(res.error()){
@@ -33,20 +32,18 @@ try {
                                     let valID = getProperty(dat.PROPERTY_408)
                                     let value = typelist[valID]
                                     let contractID = getProperty(dat.PROPERTY_633)
-                                    console.log(contractID)
 
                                     BX24.callMethod('crm.item.get', {"entityTypeId": 179, "id": contractID}, async (res)=>{
                                         if(res.error()){
                                             alert("Error: " + res.error());
                                         }else{
                                             let dat = res.data()
-                                            console.log(dat)
                                             let conf = confirm("Добавить запись?\nТип:"+ value+"\nДоговор: "+ dat.item.title)
                                             if(conf){
                                                 showing()
                                                 BX24.callMethod('user.current', {}, function(res){
-                                                    console.log(res.data())
                                                     userID = res.data().ID
+                                                    console.log(userID)
                                                 })
                                                 fetch('/add', {
                                                     method: 'post',
