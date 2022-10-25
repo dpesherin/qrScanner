@@ -18,7 +18,8 @@ try {
                         if(res.error()){
                             alert("Error: " + res.error());
                         }else{
-                            typelist = res.data().DISPLAY_VALUES_FORM
+                            let dat  = res.data()
+                            typelist = dat.DISPLAY_VALUES_FORM
                             document.writeln(JSON.stringify(typelist))
                         }
                     })
