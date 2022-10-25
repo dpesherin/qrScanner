@@ -115,7 +115,7 @@ try {
                         <h3>Выберите менеждера, который передал вам пакет документов</h3>
                         <select id="userList">
                         </select>
-                        <button class="btn btn-primary" id="submit" onClick="GetUser(e)">Выбрать</button>
+                        <button class="btn btn-primary" id="submit" onclick="GetUser()">Выбрать</button>
                     </div>
                 `)
                 users.forEach(el => {
@@ -155,9 +155,8 @@ try {
             return pstr.split('"')[3]
         }
 
-        function GetUser(e){
-            e.preventDefault()
-            alert('Click')
+        function GetUser(){
+            alert($('#userList').val())
         }
 
 
