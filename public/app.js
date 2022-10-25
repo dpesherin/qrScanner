@@ -19,7 +19,8 @@ try {
                             alert("Error: " + res.error());
                         }else{
                             let dat  = res.data()
-                            console.log(dat)
+                            typelist = dat.L.DISPLAY_VALUES_FORM
+                            console.log(typelist)
                         }
                     })
                     // BX24.callMethod('lists.element.get', {"IBLOCK_TYPE_ID": "lists", "IBLOCK_ID": 92, "ELEMENT_ID": arData[1]}, (res)=>{
