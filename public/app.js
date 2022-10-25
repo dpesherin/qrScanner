@@ -155,9 +155,7 @@ try {
             return pstr.split('"')[3]
         }
 
-        function getUser(){
-            alert($('#userList').val())
-        }
+        
 
 
     })
@@ -166,5 +164,10 @@ try {
     window.location.href = 'https://google.com'
 }
 
+$(document).ready(()=>{
+    function getUser(){
+        alert($('#userList').val())
+    }
+})
 
     
