@@ -38,9 +38,8 @@ try {
                                         }else{
                                             let dat = res.data()
                                             console.log(dat)
-        
-                                            
-                
+                                            let conf = confirm("Добавить запись?\nТип:"+ value+"\nДоговор: "+ dat.item.title)
+                    
                                         }
                                     })
         
