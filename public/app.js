@@ -2,10 +2,6 @@ import QrScanner from "./core/qr-scanner.min.js";
 try {
     BX24.init(()=>{
         var userID
-        // BX24.callMethod('user.current', {}, function(res){
-        //     alert('Привет, ' + res.data().NAME + '! ID= '+ res.data().ID);
-        //     userID = res.data().ID
-        // })
         const video = document.getElementById('qr-video');
         const videoContainer = document.getElementById('container');
         var typelist
@@ -48,6 +44,10 @@ try {
                                             let conf = confirm("Добавить запись?\nТип:"+ value+"\nДоговор: "+ dat.item.title)
                                             if(conf){
                                                 showing()
+                                                BX24.callMethod('user.current', {}, function(res){
+                                                    console.log(res.data())
+                                                    userID = res.data().ID
+                                                })
                                                 fetch('/add', {
                                                     method: 'post',
                                                     headers: {
