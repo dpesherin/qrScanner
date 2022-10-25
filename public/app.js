@@ -39,7 +39,16 @@ try {
                                             let dat = res.data()
                                             console.log(dat)
                                             let conf = confirm("Добавить запись?\nТип:"+ value+"\nДоговор: "+ dat.item.title)
-                    
+                                            if(conf){
+                                                $('#data').append(
+                                                    `<div class="item">
+                                                        <span class="info">${value}</span>
+                                                        <p class="title">${dat.item.title}</p>
+                                                    </div>`
+                                                )
+                                            }else{
+                                                scanner.start()
+                                            }
                                         }
                                     })
         
