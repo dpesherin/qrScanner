@@ -31,7 +31,7 @@ try {
                                     let value = typelist[valID]
         
         
-                                    let conf = confirm("Вы отсканировали элемент с типом:"+ value)
+                                    let conf = confirm("Добавить запись?\nТип:"+ value+"\nДоговор: "+ JSON.stringify(dat.PROPERTY_633))
                                     if(!conf){
                                         scanner.start()
                                     }
