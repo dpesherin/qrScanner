@@ -19,28 +19,24 @@ try {
                             alert("Error: " + res.error());
                         }else{
                             let dat = res.data()[0]
-                            let p1 = JSON.stringify(dat)
-                            document.writeln(p1)
-                            if(!conf){
-                                scanner.start()
-                            }
+                            document.writeln(dat)
                         }
                     })
-                    BX24.callMethod('lists.element.get', {"IBLOCK_TYPE_ID": "lists", "IBLOCK_ID": 92, "ELEMENT_ID": arData[1]}, (res)=>{
-                        if(res.error()){
-                            alert("Error: " + res.error());
-                        }else{
-                            let dat = res.data()[0]
-                            let p1 = JSON.stringify(dat.PROPERTY_408)
-                            let p1val = p1.split('"')[3]
+                    // BX24.callMethod('lists.element.get', {"IBLOCK_TYPE_ID": "lists", "IBLOCK_ID": 92, "ELEMENT_ID": arData[1]}, (res)=>{
+                    //     if(res.error()){
+                    //         alert("Error: " + res.error());
+                    //     }else{
+                    //         let dat = res.data()[0]
+                    //         let p1 = JSON.stringify(dat.PROPERTY_408)
+                    //         let p1val = p1.split('"')[3]
 
-                            let conf = confirm("Вы отсканировали элемент с типом:"+ dat.PROPERTY_408)
-                            document.writeln(p1val)
-                            if(!conf){
-                                scanner.start()
-                            }
-                        }
-                    })
+                    //         let conf = confirm("Вы отсканировали элемент с типом:"+ dat.PROPERTY_408)
+                    //         document.writeln(p1val)
+                    //         if(!conf){
+                    //             scanner.start()
+                    //         }
+                    //     }
+                    // })
                 }else{
                     alert('Приложение не может работать с этими данными')
                 }
