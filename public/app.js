@@ -171,6 +171,19 @@ try {
                                                 console.log(res.error())
                                                 console.log(res.data())
                                                 alert('Произошла ошибка при отправке')
+                                            }else{
+                                                fetch('/del', {
+                                                    method: 'post',
+                                                    headers: {
+                                                        'Accept': 'application/json',
+                                                        'Content-Type': 'application/json'
+                                                    },
+                                                    body:JSON.stringify({
+                                                        el_id: Number(el.el_id),
+                                                    })
+                                                }).then(async (response)=>{
+                                                    console.log('Элемент удален')
+                                                })
                                             }
                                         })
                                     }
@@ -179,6 +192,7 @@ try {
                             }); 
                             hiding()
                             $('#userSelector').remove()
+                            $('.item-wrapper').remove()
                         }else{
                             hiding()
                             alert("Во время выполнения произошла ошибка")

@@ -106,8 +106,8 @@ app.post('/get', (req, res)=>{
 })
 
 app.post('/del', (req, res)=>{
-    const user = req.body.user
-    db.run(`DELETE FROM documents WHERE scanned_by = ${user};`, (resu, err)=>{
+    const el_id = req.body.el_id
+    db.run(`DELETE FROM documents WHERE el_id = ${el_id};`, (resu, err)=>{
         if(err){
             return res.status(200).json({status: "err", msg: "Произошла ошибка на сервере"})
         }
