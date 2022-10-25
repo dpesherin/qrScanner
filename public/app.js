@@ -3,7 +3,7 @@ try {
     BX24.init(()=>{
         const video = document.getElementById('qr-video');
         const videoContainer = document.getElementById('container');
-
+        var typelist
 
 
         function setResult(result) {
@@ -13,6 +13,19 @@ try {
                 let data = result.data
                 let arData = data.split("_")
                 if(arData[0] == "92"){
+                    
+                    BX24.callMethod('lists.field.get', {"IBLOCK_TYPE_ID": "lists", "IBLOCK_ID": 92, "FIELD_ID": 408}, (res)=>{
+                        if(res.error()){
+                            alert("Error: " + res.error());
+                        }else{
+                            let dat = res.data()[0]
+                            let p1 = JSON.stringify(dat)
+                            document.writeln(p1)
+                            if(!conf){
+                                scanner.start()
+                            }
+                        }
+                    })
                     BX24.callMethod('lists.element.get', {"IBLOCK_TYPE_ID": "lists", "IBLOCK_ID": 92, "ELEMENT_ID": arData[1]}, (res)=>{
                         if(res.error()){
                             alert("Error: " + res.error());
