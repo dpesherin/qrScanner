@@ -123,7 +123,28 @@ try {
                 });
 
                 $('#submit').on('click', ()=>{
-                    alert($('#userList').val())
+                    var sender = $('#userList').val()
+
+                    showing()
+                    fetch('/get', {
+                        method: 'post',
+                        headers: {
+                            'Accept': 'application/json',
+                            'Content-Type': 'application/json'
+                        },
+                        body:JSON.stringify({
+                            user: userID
+                        })
+                    }).then(async (response)=>{
+                        let resData = await response.json()
+                        if(resData.status == "ok"){
+                            console.log(resData.data)
+                        }else{
+                            hiding()
+                            alert("Во время выполнения произошла ошибка")
+                        }
+                    })
+
                 })
             });
             // showing()
