@@ -112,6 +112,7 @@ try {
                 let users = res.data()
                 $('body').append(`
                     <form id="userSelector">
+                        <h3>Выберите менеждера, который передал вам пакет документов</h3>
                         <select id="userList">
                         </select>
                         <button class="btn btn-primary" id="submit" onClick="GetUser(e)">Выбрать</button>
