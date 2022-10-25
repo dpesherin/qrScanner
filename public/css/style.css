@@ -91,4 +91,10 @@ body{
 .popup-window{
     left: 0% !important;
     top: 25% !important;
+    transform: translate(-50%, -50%) !important;
+}
+#app-user-popup-0{
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
 }
