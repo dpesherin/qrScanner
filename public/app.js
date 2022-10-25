@@ -14,7 +14,7 @@ try {
                 let arData = data.split("_")
                 if(arData[0] == "92"){
                     
-                    BX24.callMethod('lists.field.get', {"IBLOCK_TYPE_ID": "lists", "IBLOCK_ID": 92, "FIELD_ID": 408}, (res)=>{
+                    BX24.callMethod('lists.field.get', {"IBLOCK_TYPE_ID": "lists", "IBLOCK_ID": 92}, (res)=>{
                         if(res.error()){
                             alert("Error: " + res.error());
                         }else{
