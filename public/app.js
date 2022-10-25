@@ -21,15 +21,14 @@ try {
                             let dat  = res.data()
                             typelist = dat.L.DISPLAY_VALUES_FORM
                             console.log(typelist)
-                            
+
                             BX24.callMethod('lists.element.get', {"IBLOCK_TYPE_ID": "lists", "IBLOCK_ID": 92, "ELEMENT_ID": arData[1]}, (res)=>{
                                 if(res.error()){
                                     alert("Error: " + res.error());
                                 }else{
                                     let dat = res.data()[0]
-                                    let p1 = JSON.stringify(dat.PROPERTY_408)
-                                    let p1val = p1.split('"')[3]
-                                    let value = typelist[p1val]
+                                    let valID = getProperty(dat.PROPERTY_408)
+                                    let value = typelist[valID]
         
         
                                     let conf = confirm("Вы отсканировали элемент с типом:"+ value)
@@ -70,6 +69,11 @@ try {
         }
         function hiding(){
             document.getElementById('wrapper').style.display = 'none'
+        }
+
+        function getProperty(prop){
+            let pstr = JSON.stringify(prop)
+            return pstr.split('"')[3]
         }
 
 
