@@ -1,6 +1,10 @@
 import QrScanner from "./core/qr-scanner.min.js";
 try {
     BX24.init(async ()=>{
+
+        function getUser(){
+            return alert($('#userList').val())
+        }
         var userID
         const video = document.getElementById('qr-video');
         const videoContainer = document.getElementById('container');
@@ -164,10 +168,10 @@ try {
     window.location.href = 'https://google.com'
 }
 
-$(document).ready(()=>{
-    function getUser(){
-        alert($('#userList').val())
-    }
-})
+// $(document).ready(()=>{
+//     function getUser(){
+//         alert($('#userList').val())
+//     }
+// })
 
     
