@@ -138,7 +138,26 @@ try {
                     }).then(async (response)=>{
                         let resData = await response.json()
                         if(resData.status == "ok"){
-                            console.log(resData.data)
+                            let dbData = resData.data
+                            dbData.forEach(el => {
+                                el.el_id
+                                var params = {
+                                    'IBLOCK_TYPE_ID': 'lists',
+                                    'IBLOCK_ID': '92',
+                                    'ELEMENT_ID': el.el_id,
+                                    'FIELDS': {
+                                        'PROPERTY_706': {'n0': userID},
+                                        'PROPERTY_707': {'n0': Date()}, // либо без id 'PROPERTY_121': {'n0': ['50', 'n1582']}
+                                        'PROPERTY_708' : {'n0': sender}
+                                    }
+                                   }
+                                BX24.callMethod('lists.element.update', params, (res)=>{
+                                    if(res.error()){
+                                        alert('Произошла ошибка при отправке')
+                                    }
+                                })
+                            }); 
+                            hiding()
                         }else{
                             hiding()
                             alert("Во время выполнения произошла ошибка")
