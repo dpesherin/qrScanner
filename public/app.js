@@ -117,11 +117,14 @@ try {
                         </select>
                         <button class="btn btn-primary" id="submit" onclick="getUser()">Выбрать</button>
                     </div>
-                    <script src="./sender.js"></script>
                 `)
                 users.forEach(el => {
                     $('#userList').append(`<option value="${el.ID}">${el.NAME} ${el.LAST_NAME}</option>`)
                 });
+
+                $('#submit').on('click', ()=>{
+                    alert($('#userList').val())
+                })
             });
             // showing()
             // fetch('/get', {

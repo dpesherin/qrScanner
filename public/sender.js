@@ -1,3 +1,0 @@
-function getUser(){
-    alert("ок")
-}
