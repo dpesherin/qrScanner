@@ -53,17 +53,21 @@ try {
                                                     })
                                                 }).then(async (response)=>{
                                                     var resData = await response.json()
-                                                    console.log(resData)
+                                                    if(resData.status == "ok"){
+                                                        $('#data').append(
+                                                            `<div class="item-wrapper">
+                                                                <img class="mark" src="./img/mark.svg">
+                                                                <div class="item">
+                                                                    <span class="info">${value}</span>
+                                                                    <p class="title">${dat.item.title}</p>
+                                                                </div>
+                                                            </div>`
+                                                        )
+                                                    }else{
+                                                        alert("Во время выполнения произошла ошибка")
+                                                    }
                                                 })
-                                                $('#data').append(
-                                                    `<div class="item-wrapper">
-                                                        <img class="mark" src="./img/mark.svg">
-                                                        <div class="item">
-                                                            <span class="info">${value}</span>
-                                                            <p class="title">${dat.item.title}</p>
-                                                        </div>
-                                                    </div>`
-                                                )
+                                                
                                             }else{
                                                 scanner.start()
                                             }
