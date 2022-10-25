@@ -46,11 +46,11 @@ try {
                                                         'Accept': 'application/json',
                                                         'Content-Type': 'application/json'
                                                     },
-                                                    body:{
+                                                    body:JSON.stringify({
                                                         el_id: Number(arData[1]),
                                                         contract: Number(contractID),
                                                         user: 1
-                                                    }
+                                                    })
                                                 }).then((response)=>{
                                                     console.log(response)
                                                 })
