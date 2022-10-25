@@ -13,6 +13,8 @@ try {
                 let data = result.data
                 let arData = data.split("_")
                 if(arData[0] == "92"){
+
+
                     
                     BX24.callMethod('lists.field.get', {"IBLOCK_TYPE_ID": "lists", "IBLOCK_ID": 92, "FIELD_ID": "PROPERTY_408"}, (res)=>{
                         if(res.error()){
@@ -63,6 +65,8 @@ try {
                                                                 </div>
                                                             </div>`
                                                         )
+                                                    }else if(resData.status == "exception"){
+                                                        alert(resData.msg)
                                                     }else{
                                                         alert("Во время выполнения произошла ошибка")
                                                     }

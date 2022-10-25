@@ -54,12 +54,23 @@ app.post('/add', (req, res)=>{
     const contract = req.body.contract
     const user = req.body.user
 
-    db.run(`INSERT INTO documents (el_id, contract_id, scanned_by) VALUES (${el_id}, ${contract}, ${user});`, (result, err)=>{
+    db.get(`SELECT FROM documents WHERE el_id = ${el_id};`, (err, row)=>{
         if(err){
             return res.status(200).json({status: "err", msg: "Произошла ошибка на сервере"})
+        }else{
+            if(row){
+                return res.status(200).json({status: "exception", msg: "Запись этого документа уже добавлена"})
+            }
+            db.run(`INSERT INTO documents (el_id, contract_id, scanned_by) VALUES (${el_id}, ${contract}, ${user});`, (result, err)=>{
+                if(err){
+                    return res.status(200).json({status: "err", msg: "Произошла ошибка на сервере"})
+                }
+                return res.status(200).json({status: "ok", msg: "Документ добавлен"})
+            })
         }
-        return res.status(200).json({status: "ok", msg: "Документ добавлен"})
     })
+
+    
 })
 
 app.post('/print', async (req, res)=>{
