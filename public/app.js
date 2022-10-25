@@ -41,9 +41,12 @@ try {
                                             let conf = confirm("Добавить запись?\nТип:"+ value+"\nДоговор: "+ dat.item.title)
                                             if(conf){
                                                 $('#data').append(
-                                                    `<div class="item">
-                                                        <span class="info">${value}</span>
-                                                        <p class="title">${dat.item.title}</p>
+                                                    `<div class="item-wrapper">
+                                                        <img class="mark" src="./img/mark.svg">
+                                                        <div class="item">
+                                                            <span class="info">${value}</span>
+                                                            <p class="title">${dat.item.title}</p>
+                                                        </div>
                                                     </div>`
                                                 )
                                             }else{

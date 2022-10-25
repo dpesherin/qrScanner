@@ -64,3 +64,13 @@ body{
     align-items: center;
     z-index: 1000;
 }
+.item-wrapper{
+    display: flex;
+    padding: 3px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.info{
+    color: lightslategray;
+    font-size: 0.8rem;
+}
