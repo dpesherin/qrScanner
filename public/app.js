@@ -111,11 +111,13 @@ try {
             BX24.callMethod('user.get', {"UF_DEPARTMENT": 130, "ACTIVE": true}, (res)=>{
                 let users = res.data()
                 $('body').append(`
+                <div id="form-wrapper">
                     <form id="userSelector">
                         <select id="userList">
                         </select>
                         <button class="btn btn-primary" id="submit" onClick="GetUser(e)">Выбрать</button>
                     </form>
+                </div>
                 `)
                 users.forEach(el => {
                     $('#userList').append(`<option value="${el.ID}">${el.NAME} ${el.LAST_NAME}</option>`)

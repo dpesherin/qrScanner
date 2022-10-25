@@ -108,9 +108,14 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 40vh;
+    height: 30vh;
     width: 80vw;
 }
 #submit{
     margin-top: 15px;
+}
+#form-wrapper{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.8);
 }
