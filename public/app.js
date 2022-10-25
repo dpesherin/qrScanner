@@ -139,6 +139,10 @@ try {
                         let resData = await response.json()
                         if(resData.status == "ok"){
                             let dbData = resData.data
+                            if(dbData.length == 0){
+                                alert("Нет данных для отправки")
+                                window.location.href = '/'
+                            }
                             dbData.forEach(el => {
                                 el.el_id
                                 var params = {
@@ -166,25 +170,7 @@ try {
 
                 })
             });
-            // showing()
-            // fetch('/get', {
-            //     method: 'post',
-            //     headers: {
-            //         'Accept': 'application/json',
-            //         'Content-Type': 'application/json'
-            //     },
-            //     body:JSON.stringify({
-            //         user: userID
-            //     })
-            // }).then(async (response)=>{
-            //     let resData = await response.json()
-            //     if(resData.status == "ok"){
-            //         console.log(resData.data)
-            //     }else{
-            //         hiding()
-            //         alert("Во время выполнения произошла ошибка")
-            //     }
-            // })
+
         })
 
         function showing(){
@@ -207,11 +193,5 @@ try {
     alert("Вы не можете использовать это приложение вне Битрикс24")
     window.location.href = 'https://google.com'
 }
-
-// $(document).ready(()=>{
-//     function getUser(){
-//         alert($('#userList').val())
-//     }
-// })
 
     
