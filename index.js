@@ -54,7 +54,7 @@ app.post('/add', (req, res)=>{
     const contract = req.body.contract
     const user = req.body.user
 
-    db.get(`SELECT FROM documents WHERE el_id = ${el_id};`, (err, row)=>{
+    db.get(`SELECT * FROM documents WHERE el_id = ${el_id};`, (err, row)=>{
         if(err){
             return res.status(200).json({status: "err", msg: "Произошла ошибка на сервере"})
         }else{
