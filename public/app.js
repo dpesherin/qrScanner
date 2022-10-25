@@ -29,12 +29,24 @@ try {
                                     let dat = res.data()[0]
                                     let valID = getProperty(dat.PROPERTY_408)
                                     let value = typelist[valID]
+                                    let contractID = getProperty(dat.PROPERTY_633)
+
+                                    BX24.callMethod('crm.item.get', {"entityTypeId": 179, "id": contractID}, (res)=>{
+                                        if(res.error()){
+                                            alert("Error: " + res.error());
+                                        }else{
+                                            let dat = res.data()[0]
+                                            console.log(dat)
         
+                                            
+                
+                                        }
+                                    })
         
-                                    let conf = confirm("Добавить запись?\nТип:"+ value+"\nДоговор: "+ JSON.stringify(dat.PROPERTY_633))
-                                    if(!conf){
-                                        scanner.start()
-                                    }
+                                    // let conf = confirm("Добавить запись?\nТип:"+ value+"\nДоговор: "+ dat.PROPERTY_633)
+                                    // if(!conf){
+                                    //     scanner.start()
+                                    // }
                                 }
                             })
                         }
