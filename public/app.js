@@ -42,6 +42,7 @@ try {
                                             console.log(dat)
                                             let conf = confirm("Добавить запись?\nТип:"+ value+"\nДоговор: "+ dat.item.title)
                                             if(conf){
+                                                showing()
                                                 fetch('/add', {
                                                     method: 'post',
                                                     headers: {
@@ -54,6 +55,7 @@ try {
                                                         user: 1
                                                     })
                                                 }).then(async (response)=>{
+                                                    hiding()
                                                     var resData = await response.json()
                                                     if(resData.status == "ok"){
                                                         $('#data').append(

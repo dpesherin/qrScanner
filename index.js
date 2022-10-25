@@ -49,7 +49,6 @@ app.post('/generate', async(req, res)=>{
 })
 
 app.post('/add', (req, res)=>{
-    console.log(req)
     const el_id = req.body.el_id
     const contract = req.body.contract
     const user = req.body.user
@@ -60,7 +59,7 @@ app.post('/add', (req, res)=>{
         }else{
             console.log(row)
             if(row){
-                return res.status(200).json({status: "exception", msg: "Запись этого документа уже добавлена"})
+                return res.status(200).json({status: "exception", msg: "Запись этого документа уже была добавлена"})
             }
             db.run(`INSERT INTO documents (el_id, contract_id, scanned_by) VALUES (${el_id}, ${contract}, ${user});`, (result, err)=>{
                 if(err){
