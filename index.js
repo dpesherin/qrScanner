@@ -105,6 +105,16 @@ app.post('/get', (req, res)=>{
     })
 })
 
+app.post('/del', (req, res)=>{
+    const user = req.body.user
+    db.run(`DELETE FROM documents WHERE scanned_by = ${user};`, (resu, err)=>{
+        if(err){
+            return res.status(200).json({status: "err", msg: "Произошла ошибка на сервере"})
+        }
+        return res.status(200).json({status: "ok", msg: "Элементы удалены"})
+    })
+})
+
 // HttpsServer.listen(HttpsPort, ()=>{
 //     console.log('Server HTTPS was started')
 // })

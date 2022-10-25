@@ -54,7 +54,7 @@ try {
                                                     body:JSON.stringify({
                                                         el_id: Number(arData[1]),
                                                         contract: Number(contractID),
-                                                        user: 1
+                                                        user: userID
                                                     })
                                                 }).then(async (response)=>{
                                                     hiding()
