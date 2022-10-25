@@ -110,7 +110,7 @@ try {
             scanner.stop()
             BX24.callMethod('user.get', {"UF_DEPARTMENT": 130, "ACTIVE": true}, (res)=>{
                 let users = res.data()
-                $('body').append(`
+                $('#container').append(`
                 <div id="form-wrap">
                     <form id="userSelector">
                         <select id="userList">
