@@ -3,7 +3,9 @@ const app = express()
 const http = require('http')
 const sqlite = require('sqlite3')
 const path = require('path')
+const cron = require('cron').CronJob
 const fileUpload = require('express-fileupload')
+var docxConverter = require('docx-pdf');
 // const https = require('https')
 const Port = process.env.PORT || 3000
 const HttpServer = http.createServer(app)
@@ -77,8 +79,8 @@ app.post('/print', async (req, res)=>{
     const key = config.get('key')
     if(key == token){
 	let filename = req.files.file.name
-	await req.files.file.mv('./'+filename);
-        const sourceFilePath = path.resolve('./'+filename);
+	await req.files.file.mv('./documents/'+filename);
+        const sourceFilePath = path.resolve('./documents/'+filename);
         const outputFilePath = path.resolve('./myDoc.pdf');
  
         unoconv
@@ -115,6 +117,32 @@ app.post('/del', (req, res)=>{
     })
 })
 
+app.post('/gen', async (req, res)=>{
+    const token = req.headers.authorization
+    const key = config.get('key')
+    if(key == token){
+	let filename = req.files.file.name
+	await req.files.file.mv('./documents/'+filename);
+        const sourceFilePath = path.resolve('./documents/'+filename);
+        const outputFilePath = path.resolve('./myDoc.pdf');
+
+        const main = async () => {
+            const pdfdoc = await PDFNet.PDFDoc.create();
+            await pdfdoc.initSecurityHandler();
+            await PDFNet.Convert.toPdf(pdfdoc, inputPath);
+            pdfdoc.save(
+              `${pathname}${filename}.pdf`,
+              PDFNet.SDFDoc.SaveOptions.e_linearized,
+            );
+            ext = '.pdf';
+          };
+
+    }else{
+        return res.status(401).json({status: "err", msg: "Authorization error"})
+    }
+
+})
+
 // HttpsServer.listen(HttpsPort, ()=>{
 //     console.log('Server HTTPS was started')
 // })
@@ -122,3 +150,16 @@ app.post('/del', (req, res)=>{
 HttpServer.listen(Port, ()=>{
     console.log('Server was started')
 })
+
+let job = new cron('* 00 23 * * *', async ()=>{
+    const directory = "documents";
+
+    for (const file of await fs.readdir(directory)) {
+    await fs.unlink(path.join(directory, file));
+    }
+},
+null,
+true,
+'Europe/Moscow')
+
+job.start()
